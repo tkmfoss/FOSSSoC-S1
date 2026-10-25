@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T10:24:52.240Z",
+  "updated": "2026-10-25T15:21:37.395Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -18,10 +18,127 @@
   },
   "users": [
     {
+      "user": "anfaalresearch",
+      "name": "MUHAMMED ANFAAL M M",
+      "college": "TKMCE",
+      "department": "CS-AI",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "aryarnair16",
       "name": "Arya R Nair",
       "college": "TKMCE",
       "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "Fathima-nazarin",
+      "name": "Fathima Nazarin",
+      "college": "TKMCE",
+      "department": "Electronics and Communication",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "sinandesktop",
+      "name": "Muhammed Sinan S",
+      "college": "TKMCE",
+      "department": "CS-Ai",
       "year": 2,
       "portfolio": {
         "fork": 5,
@@ -65,47 +182,8 @@
       "portfolio": {
         "fork": 5,
         "commits": 5,
-        "live": 10,
+        "live": 0,
         "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "anfaalresearch",
-      "name": "MUHAMMED ANFAAL M M",
-      "college": "TKMCE",
-      "department": "CS-AI",
-      "year": 1,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 0,
         "auto": 20,
         "rubric": null,
         "total": 20,
@@ -120,58 +198,19 @@
       "months": {
         "2026-10": {
           "points": 20,
-          "prs": 0,
+          "prs": 1,
           "mediumPlus": 0,
           "eligible": false
         }
       },
       "overall": {
         "points": 20,
-        "activeMonths": 0,
+        "activeMonths": 1,
         "repos": 0,
         "eligible": false
       },
       "total": 20,
-      "tier": "none"
-    },
-    {
-      "user": "sinandesktop",
-      "name": "Muhammed Sinan S",
-      "college": "TKMCE",
-      "department": "CS-Ai",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 0,
-        "showcase": 0,
-        "auto": 10,
-        "rubric": null,
-        "total": 10,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 10,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 10,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 10,
-      "tier": "none"
+      "tier": "participant"
     },
     {
       "user": "Bhadra-S07",
@@ -217,45 +256,6 @@
       "name": "sreerang",
       "college": "TKMCE",
       "department": "Electrical and computer engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "Fathima-nazarin",
-      "name": "Fathima Nazarin",
-      "college": "TKMCE",
-      "department": "Electronics and Communication",
       "year": 2,
       "portfolio": {
         "fork": 5,
@@ -4435,9 +4435,33 @@
       "year": 2
     },
     {
+      "github": "anfaalresearch",
+      "name": "MUHAMMED ANFAAL M M",
+      "site": "https://anfaalresearch.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 1
+    },
+    {
       "github": "aryarnair16",
       "name": "Arya R Nair",
       "site": "https://aryarnair16.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 2
+    },
+    {
+      "github": "Fathima-nazarin",
+      "name": "Fathima Nazarin",
+      "site": "https://fathima-nazarin.github.io/portfolio-template/",
+      "college": "",
+      "department": "ECE",
+      "year": 2
+    },
+    {
+      "github": "sinandesktop",
+      "name": "Muhammed Sinan S.",
+      "site": "https://sinandesktop.github.io/portfolio-template/",
       "college": "",
       "department": "CSE",
       "year": 2
