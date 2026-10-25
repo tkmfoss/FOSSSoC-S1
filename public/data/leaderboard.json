@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T15:21:37.395Z",
+  "updated": "2026-10-25T20:14:07.570Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -135,6 +135,45 @@
       "tier": "participant"
     },
     {
+      "user": "Hari-c137",
+      "name": "Hariprasad Aji",
+      "college": "Model Engineering College",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "sinandesktop",
       "name": "Muhammed Sinan S",
       "college": "TKMCE",
@@ -171,45 +210,6 @@
         "eligible": false
       },
       "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Hari-c137",
-      "name": "Hariprasad Aji",
-      "college": "Model Engineering College",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 0,
-        "showcase": 10,
-        "auto": 20,
-        "rubric": null,
-        "total": 20,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 20,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 20,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 20,
       "tier": "participant"
     },
     {
@@ -4433,6 +4433,14 @@
       "college": "",
       "department": "CSE",
       "year": 2
+    },
+    {
+      "github": "ananthajith17",
+      "name": "Ananthajith Girish",
+      "site": "https://ananthajith17.github.io/portfolio-template/",
+      "college": "",
+      "department": "ME",
+      "year": 1
     },
     {
       "github": "anfaalresearch",
