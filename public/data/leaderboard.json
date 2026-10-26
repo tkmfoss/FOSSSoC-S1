@@ -291,6 +291,45 @@
       "tier": "none"
     },
     {
+      "user": "jobmj",
+      "name": "Jobin M John",
+      "college": "TKMCE",
+      "department": "CSE AI",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 5,
+        "rubric": null,
+        "total": 5,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 5,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 5,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 5,
+      "tier": "none"
+    },
+    {
       "user": "mohamedfahadlal",
       "name": "Mohamed Fahad Lal",
       "college": "TKMCE",
