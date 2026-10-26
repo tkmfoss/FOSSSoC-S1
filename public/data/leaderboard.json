@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T20:14:07.570Z",
+  "updated": "2026-10-26T12:01:02.922Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -373,6 +373,84 @@
       "name": "Muhammad Hanan P P",
       "college": "TKMCE",
       "department": "CS(AI)",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 5,
+        "rubric": null,
+        "total": 5,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 5,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 5,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 5,
+      "tier": "none"
+    },
+    {
+      "user": "sanooja-bs",
+      "name": "Sanooja B S",
+      "college": "TKMCE",
+      "department": "Computer science and engineering",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 5,
+        "rubric": null,
+        "total": 5,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 5,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 5,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 5,
+      "tier": "none"
+    },
+    {
+      "user": "shifanatk",
+      "name": "Shifana T K",
+      "college": "TKMCE",
+      "department": "Computer Science and Engineering",
       "year": 3,
       "portfolio": {
         "fork": 5,
@@ -3801,45 +3879,6 @@
       "tier": "none"
     },
     {
-      "user": "sanooja-bs",
-      "name": "Sanooja B S",
-      "college": "TKMCE",
-      "department": "Computer science and engineering",
-      "year": 1,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
       "user": "SBhagyanath",
       "name": "S Bhagyanath",
       "college": "TKMCE",
@@ -3961,45 +4000,6 @@
       "name": "MUHAMMED SHIDHADH C",
       "college": "TKMCE",
       "department": "ECE",
-      "year": 3,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "shifanatk",
-      "name": "Shifana T K",
-      "college": "TKMCE",
-      "department": "Computer Science and Engineering",
       "year": 3,
       "portfolio": {
         "fork": 0,
