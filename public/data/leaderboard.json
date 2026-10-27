@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T03:09:46.798Z",
+  "updated": "2026-10-27T21:41:09.903Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -174,6 +174,45 @@
       "tier": "participant"
     },
     {
+      "user": "Mohd-Hanan",
+      "name": "Muhammad Hanan P P",
+      "college": "TKMCE",
+      "department": "CS(AI)",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "shifanatk",
       "name": "Shifana T K",
       "college": "TKMCE",
@@ -250,6 +289,45 @@
       },
       "total": 30,
       "tier": "participant"
+    },
+    {
+      "user": "amrinchrissj",
+      "name": "Amrin Chris S J",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 0,
+        "auto": 20,
+        "rubric": null,
+        "total": 20,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 20,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 20,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 20,
+      "tier": "none"
     },
     {
       "user": "NithyaVinay",
@@ -366,6 +444,45 @@
         "eligible": false
       },
       "total": 20,
+      "tier": "none"
+    },
+    {
+      "user": "mohamedfahadlal",
+      "name": "Mohamed Fahad Lal",
+      "college": "TKMCE",
+      "department": "CS (AI)",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 0,
+        "showcase": 0,
+        "auto": 10,
+        "rubric": null,
+        "total": 10,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 10,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 10,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 10,
       "tier": "none"
     },
     {
@@ -529,84 +646,6 @@
       "name": "Jobin M John",
       "college": "TKMCE",
       "department": "CSE AI",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "mohamedfahadlal",
-      "name": "Mohamed Fahad Lal",
-      "college": "TKMCE",
-      "department": "CS (AI)",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "Mohd-Hanan",
-      "name": "Muhammad Hanan P P",
-      "college": "TKMCE",
-      "department": "CS(AI)",
       "year": 3,
       "portfolio": {
         "fork": 5,
@@ -1310,45 +1349,6 @@
       "college": "TKMCE",
       "department": "CS AI",
       "year": 1,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "amrinchrissj",
-      "name": "Amrin Chris S J",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
       "portfolio": {
         "fork": 0,
         "commits": 0,
@@ -4582,6 +4582,14 @@
       "college": "",
       "department": "ECE",
       "year": 2
+    },
+    {
+      "github": "Mohd-Hanan",
+      "name": "Muhammed Hanan P P",
+      "site": "https://mohd-hanan.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 3
     },
     {
       "github": "shifanatk",
