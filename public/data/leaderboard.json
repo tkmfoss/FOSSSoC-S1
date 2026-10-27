@@ -2709,6 +2709,45 @@
       "tier": "none"
     },
     {
+      "user": "Just-SH-alive",
+      "name": "Shreehari Sajankumar",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 0,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 0,
+        "rubric": null,
+        "total": 0,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 0,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 0,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 0,
+      "tier": "none"
+    },
+    {
       "user": "Kabooqie",
       "name": "Narayan U",
       "college": "TKMCE",
