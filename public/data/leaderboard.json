@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T21:41:09.903Z",
+  "updated": "2026-10-28T03:23:19.536Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -213,6 +213,45 @@
       "tier": "participant"
     },
     {
+      "user": "NithyaVinay",
+      "name": "Nithya Vinay",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "shifanatk",
       "name": "Shifana T K",
       "college": "TKMCE",
@@ -296,45 +335,6 @@
       "college": "TKMCE",
       "department": "CSE",
       "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 0,
-        "auto": 20,
-        "rubric": null,
-        "total": 20,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 20,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 20,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 20,
-      "tier": "none"
-    },
-    {
-      "user": "NithyaVinay",
-      "name": "Nithya Vinay",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 1,
       "portfolio": {
         "fork": 5,
         "commits": 5,
@@ -4550,6 +4550,14 @@
       "college": "",
       "department": "CSE",
       "year": 2
+    },
+    {
+      "github": "NithyaVinay",
+      "name": "Nithya Vinay",
+      "site": "https://nithyavinay.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 1
     },
     {
       "github": "ananthajith17",
