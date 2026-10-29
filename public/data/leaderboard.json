@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T03:23:19.536Z",
+  "updated": "2026-10-29T22:16:15.860Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -96,6 +96,84 @@
       "tier": "participant"
     },
     {
+      "user": "ayisha-ziana",
+      "name": "Ayisha Ziana Subair",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "Bhadra-S07",
+      "name": "Bhadra S",
+      "college": "TKMCE",
+      "department": "Computer Science and Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "Fathima-nazarin",
       "name": "Fathima Nazarin",
       "college": "TKMCE",
@@ -140,6 +218,45 @@
       "college": "Model Engineering College",
       "department": "CSE",
       "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "mohamedfahadlal",
+      "name": "Mohamed Fahad Lal",
+      "college": "TKMCE",
+      "department": "CS (AI)",
+      "year": 3,
       "portfolio": {
         "fork": 5,
         "commits": 5,
@@ -447,11 +564,11 @@
       "tier": "none"
     },
     {
-      "user": "mohamedfahadlal",
-      "name": "Mohamed Fahad Lal",
+      "user": "cosmiccoder200x-sys",
+      "name": "sreerang",
       "college": "TKMCE",
-      "department": "CS (AI)",
-      "year": 3,
+      "department": "Electrical and computer engineering",
+      "year": 2,
       "portfolio": {
         "fork": 5,
         "commits": 5,
@@ -522,123 +639,6 @@
         "eligible": false
       },
       "total": 10,
-      "tier": "none"
-    },
-    {
-      "user": "ayisha-ziana",
-      "name": "Ayisha Ziana Subair",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 1,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "Bhadra-S07",
-      "name": "Bhadra S",
-      "college": "TKMCE",
-      "department": "Computer Science and Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "cosmiccoder200x-sys",
-      "name": "sreerang",
-      "college": "TKMCE",
-      "department": "Electrical and computer engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
       "tier": "none"
     },
     {
@@ -4544,6 +4544,14 @@
   ],
   "hall": [
     {
+      "github": "Bhadra-S07",
+      "name": "Bhadra S",
+      "site": "https://Bhadra-S07.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 2
+    },
+    {
       "github": "Hari-c137",
       "name": "Hariprasad Aji",
       "site": "https://hari-c137.github.io/portfolio-template/",
@@ -4584,12 +4592,28 @@
       "year": 2
     },
     {
+      "github": "ayisha-ziana",
+      "name": "Ayisha Ziana Subair",
+      "site": "https://ayisha-ziana.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 1
+    },
+    {
       "github": "Fathima-nazarin",
       "name": "Fathima Nazarin",
       "site": "https://fathima-nazarin.github.io/portfolio-template/",
       "college": "",
       "department": "ECE",
       "year": 2
+    },
+    {
+      "github": "mohamedfahadlal",
+      "name": "Mohamed Fahad Lal",
+      "site": "https://mohamedfahadlal.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 3
     },
     {
       "github": "Mohd-Hanan",
