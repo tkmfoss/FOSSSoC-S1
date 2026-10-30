@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T11:57:03.643Z",
+  "updated": "2026-10-30T17:40:07.539Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -17,6 +17,45 @@
     }
   },
   "users": [
+    {
+      "user": "akheen1234",
+      "name": "Akheen Rajendran",
+      "college": "TKMCE",
+      "department": "Computer Science",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
     {
       "user": "anfaalresearch",
       "name": "MUHAMMED ANFAAL M M",
@@ -639,45 +678,6 @@
         "eligible": false
       },
       "total": 10,
-      "tier": "none"
-    },
-    {
-      "user": "akheen1234",
-      "name": "Akheen Rajendran",
-      "college": "TKMCE",
-      "department": "Computer Science",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
       "tier": "none"
     },
     {
@@ -4566,6 +4566,14 @@
       "college": "",
       "department": "CSE",
       "year": 1
+    },
+    {
+      "github": "akheen1234",
+      "name": "Akheen Rajendran",
+      "site": "https://akheen1234.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 2
     },
     {
       "github": "ananthajith17",
