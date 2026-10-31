@@ -57,6 +57,45 @@
       "tier": "participant"
     },
     {
+      "user": "ameengr84-dev",
+      "name": "Ameen Mohammed TP",
+      "college": "TKMCE",
+      "department": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "anfaalresearch",
       "name": "MUHAMMED ANFAAL M M",
       "college": "TKMCE",
@@ -1388,45 +1427,6 @@
       "college": "TKMCE",
       "department": "CSE",
       "year": 3,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "ameengr84",
-      "name": "Ameen Mohammed TP",
-      "college": "TKMCE",
-      "department": "ELECTRONICS AND COMMUNICATION ENGINEERING",
-      "year": 2,
       "portfolio": {
         "fork": 0,
         "commits": 0,
