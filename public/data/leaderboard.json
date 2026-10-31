@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T16:38:02.157Z",
+  "updated": "2026-10-31T17:22:50.240Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -759,10 +759,88 @@
       "tier": "participant"
     },
     {
+      "user": "sanooja-bs",
+      "name": "Sanooja B S",
+      "college": "TKMCE",
+      "department": "Computer science and engineering",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "shifanatk",
       "name": "Shifana T K",
       "college": "TKMCE",
       "department": "Computer Science and Engineering",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "shivanisreejith1",
+      "name": "Shivani s",
+      "college": "TKMCE",
+      "department": "Cse",
       "year": 3,
       "portfolio": {
         "fork": 5,
@@ -915,19 +993,19 @@
       "tier": "none"
     },
     {
-      "user": "sanooja-bs",
-      "name": "Sanooja B S",
+      "user": "fahad2k07-gpio",
+      "name": "Fahad S Rahuman",
       "college": "TKMCE",
-      "department": "Computer science and engineering",
-      "year": 1,
+      "department": "Electronics and communication engineering",
+      "year": 2,
       "portfolio": {
         "fork": 5,
-        "commits": 5,
+        "commits": 0,
         "live": 10,
         "showcase": 0,
-        "auto": 20,
+        "auto": 15,
         "rubric": null,
-        "total": 20,
+        "total": 15,
         "eligible": false
       },
       "projects": {
@@ -938,58 +1016,19 @@
       },
       "months": {
         "2026-10": {
-          "points": 20,
+          "points": 15,
           "prs": 0,
           "mediumPlus": 0,
           "eligible": false
         }
       },
       "overall": {
-        "points": 20,
+        "points": 15,
         "activeMonths": 0,
         "repos": 0,
         "eligible": false
       },
-      "total": 20,
-      "tier": "none"
-    },
-    {
-      "user": "shivanisreejith1",
-      "name": "Shivani s",
-      "college": "TKMCE",
-      "department": "Cse",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 0,
-        "auto": 20,
-        "rubric": null,
-        "total": 20,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 20,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 20,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 20,
+      "total": 15,
       "tier": "none"
     },
     {
@@ -997,45 +1036,6 @@
       "name": "ADITH B K",
       "college": "TKMCE",
       "department": "Electronics And Communication Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "fahad2k07-gpio",
-      "name": "Fahad S Rahuman",
-      "college": "TKMCE",
-      "department": "Electronics and communication engineering",
       "year": 2,
       "portfolio": {
         "fork": 5,
@@ -4704,9 +4704,25 @@
       "year": 3
     },
     {
+      "github": "sanooja-bs",
+      "name": "Sanooja",
+      "site": "https://sanooja-bs.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 1
+    },
+    {
       "github": "shifanatk",
       "name": "Shifana T K",
       "site": "https://shifanatk.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 3
+    },
+    {
+      "github": "shivanisreejith1",
+      "name": "Shivani S",
+      "site": "https://shivanisreejith1.github.io/portfolio-template/",
       "college": "",
       "department": "CSE",
       "year": 3
@@ -4718,6 +4734,14 @@
       "college": "",
       "department": "CSE",
       "year": 2
+    },
+    {
+      "github": "Thush-ar",
+      "name": "Thushar",
+      "site": "https://thush-ar.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 3
     }
   ]
 }
