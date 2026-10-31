@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T11:30:19.313Z",
+  "updated": "2026-10-31T16:38:02.157Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -17,6 +17,123 @@
     }
   },
   "users": [
+    {
+      "user": "Abhynavv",
+      "name": "Abhinav Raj Vc",
+      "college": "TKMCE",
+      "department": "Computer Science and engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "adissheshen",
+      "name": "Adissheshen J Singh",
+      "college": "TKMCE",
+      "department": "Electrical and Computer Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "Adithya-rb-here",
+      "name": "Adithya R B",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
     {
       "user": "akheen1234",
       "name": "Akheen Rajendran",
@@ -408,6 +525,45 @@
       "tier": "participant"
     },
     {
+      "user": "KevinGeo-7583",
+      "name": "Kevin Geo Jose",
+      "college": "TKMCE",
+      "department": "Computer Science and Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "mohamedfahadlal",
       "name": "Mohamed Fahad Lal",
       "college": "TKMCE",
@@ -486,8 +642,86 @@
       "tier": "participant"
     },
     {
+      "user": "Niranjana-553",
+      "name": "Niranjana S",
+      "college": "TKMCE",
+      "department": "Computer Science Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "NithyaVinay",
       "name": "Nithya Vinay",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "Rizwanack7",
+      "name": "Rizwana chenganakkattil",
       "college": "TKMCE",
       "department": "CSE",
       "year": 1,
@@ -681,10 +915,10 @@
       "tier": "none"
     },
     {
-      "user": "Rizwanack7",
-      "name": "Rizwana chenganakkattil",
+      "user": "sanooja-bs",
+      "name": "Sanooja B S",
       "college": "TKMCE",
-      "department": "CSE",
+      "department": "Computer science and engineering",
       "year": 1,
       "portfolio": {
         "fork": 5,
@@ -728,11 +962,11 @@
       "portfolio": {
         "fork": 5,
         "commits": 5,
-        "live": 0,
+        "live": 10,
         "showcase": 0,
-        "auto": 10,
+        "auto": 20,
         "rubric": null,
-        "total": 10,
+        "total": 20,
         "eligible": false
       },
       "projects": {
@@ -743,26 +977,65 @@
       },
       "months": {
         "2026-10": {
-          "points": 10,
+          "points": 20,
           "prs": 0,
           "mediumPlus": 0,
           "eligible": false
         }
       },
       "overall": {
-        "points": 10,
+        "points": 20,
         "activeMonths": 0,
         "repos": 0,
         "eligible": false
       },
-      "total": 10,
+      "total": 20,
       "tier": "none"
     },
     {
-      "user": "Abhynavv",
-      "name": "Abhinav Raj Vc",
+      "user": "AdiTh-BK",
+      "name": "ADITH B K",
       "college": "TKMCE",
-      "department": "Computer Science and engineering",
+      "department": "Electronics And Communication Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 5,
+        "rubric": null,
+        "total": 5,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 5,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 5,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 5,
+      "tier": "none"
+    },
+    {
+      "user": "fahad2k07-gpio",
+      "name": "Fahad S Rahuman",
+      "college": "TKMCE",
+      "department": "Electronics and communication engineering",
       "year": 2,
       "portfolio": {
         "fork": 5,
@@ -837,89 +1110,11 @@
       "tier": "none"
     },
     {
-      "user": "KevinGeo-7583",
-      "name": "Kevin Geo Jose",
+      "user": "ShadhaShareef",
+      "name": "Shadha Mohamed Shareef",
       "college": "TKMCE",
-      "department": "Computer Science and Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "Niranjana-553",
-      "name": "Niranjana S",
-      "college": "TKMCE",
-      "department": "Computer Science Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 5,
-        "rubric": null,
-        "total": 5,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 5,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 5,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 5,
-      "tier": "none"
-    },
-    {
-      "user": "sanooja-bs",
-      "name": "Sanooja B S",
-      "college": "TKMCE",
-      "department": "Computer science and engineering",
-      "year": 1,
+      "department": "CSE",
+      "year": 3,
       "portfolio": {
         "fork": 5,
         "commits": 0,
@@ -1153,123 +1348,6 @@
       "name": "Adhil Muhammad",
       "college": "TKMCE",
       "department": "ECE",
-      "year": 2,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "adissheshen",
-      "name": "Adissheshen J Singh",
-      "college": "TKMCE",
-      "department": "Electrical and Computer Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "AdiTh-BK",
-      "name": "ADITH B K",
-      "college": "TKMCE",
-      "department": "Electronics And Communication Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "Adithya-rb-here",
-      "name": "Adithya R B",
-      "college": "TKMCE",
-      "department": "CSE",
       "year": 2,
       "portfolio": {
         "fork": 0,
@@ -2246,45 +2324,6 @@
       "college": "TKMCE",
       "department": "Computer Science",
       "year": 1,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "fahad2k07-gpio",
-      "name": "Fahad S Rahuman",
-      "college": "TKMCE",
-      "department": "Electronics and communication engineering",
-      "year": 2,
       "portfolio": {
         "fork": 0,
         "commits": 0,
@@ -4035,45 +4074,6 @@
       "tier": "none"
     },
     {
-      "user": "ShadhaShareef",
-      "name": "Shadha Mohamed Shareef",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 3,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
       "user": "shidhadh",
       "name": "MUHAMMED SHIDHADH C",
       "college": "TKMCE",
@@ -4544,6 +4544,22 @@
   ],
   "hall": [
     {
+      "github": "Abhynavv",
+      "name": "Abhinav Raj V C",
+      "site": "https://Abhynavv.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 2
+    },
+    {
+      "github": "Adithya-rb-here",
+      "name": "Adithya R B",
+      "site": "https://adithya-rb-here.github.io/portfolio-template/",
+      "college": "",
+      "department": "Computer Engineering",
+      "year": 2
+    },
+    {
       "github": "Bhadra-S07",
       "name": "Bhadra S",
       "site": "https://Bhadra-S07.github.io/portfolio-template/",
@@ -4560,12 +4576,44 @@
       "year": 2
     },
     {
+      "github": "KevinGeo-7583",
+      "name": "Kevin Geo Jose",
+      "site": "https://kevingeo-7583.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 2
+    },
+    {
+      "github": "Niranjana-553",
+      "name": "Niranjana S.",
+      "site": "https://niranjana-553.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 2
+    },
+    {
       "github": "NithyaVinay",
       "name": "Nithya Vinay",
       "site": "https://nithyavinay.github.io/portfolio-template/",
       "college": "",
       "department": "CSE",
       "year": 1
+    },
+    {
+      "github": "Rizwanack7",
+      "name": "Rizwana chenganakkattil",
+      "site": "https://rizwanack7.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 1
+    },
+    {
+      "github": "adissheshen",
+      "name": "Adissheshen J Singh",
+      "site": "https://adissheshen.github.io/portfolio-template/",
+      "college": "",
+      "department": "ER",
+      "year": 2
     },
     {
       "github": "akheen1234",
