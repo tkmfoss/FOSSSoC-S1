@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T18:41:58.155Z",
+  "updated": "2026-10-31T20:51:20.736Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -603,6 +603,45 @@
       "tier": "participant"
     },
     {
+      "user": "Just-SH-alive",
+      "name": "Shreehari Sajankumar",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
       "user": "KevinGeo-7583",
       "name": "Kevin Geo Jose",
       "college": "TKMCE",
@@ -993,45 +1032,6 @@
       "tier": "participant"
     },
     {
-      "user": "Just-SH-alive",
-      "name": "Shreehari Sajankumar",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 0,
-        "auto": 20,
-        "rubric": null,
-        "total": 20,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 20,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 20,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 20,
-      "tier": "none"
-    },
-    {
       "user": "nivedhika2007",
       "name": "Nivedhika Thottiyil",
       "college": "TKMCE",
@@ -1071,19 +1071,19 @@
       "tier": "none"
     },
     {
-      "user": "AdiTh-BK",
-      "name": "ADITH B K",
+      "user": "ShadhaShareef",
+      "name": "Shadha Mohamed Shareef",
       "college": "TKMCE",
-      "department": "Electronics And Communication Engineering",
-      "year": 2,
+      "department": "CSE",
+      "year": 3,
       "portfolio": {
         "fork": 5,
-        "commits": 0,
-        "live": 0,
+        "commits": 5,
+        "live": 10,
         "showcase": 0,
-        "auto": 5,
+        "auto": 20,
         "rubric": null,
-        "total": 5,
+        "total": 20,
         "eligible": false
       },
       "projects": {
@@ -1094,27 +1094,27 @@
       },
       "months": {
         "2026-10": {
-          "points": 5,
+          "points": 20,
           "prs": 0,
           "mediumPlus": 0,
           "eligible": false
         }
       },
       "overall": {
-        "points": 5,
+        "points": 20,
         "activeMonths": 0,
         "repos": 0,
         "eligible": false
       },
-      "total": 5,
+      "total": 20,
       "tier": "none"
     },
     {
-      "user": "ShadhaShareef",
-      "name": "Shadha Mohamed Shareef",
+      "user": "AdiTh-BK",
+      "name": "ADITH B K",
       "college": "TKMCE",
-      "department": "CSE",
-      "year": 3,
+      "department": "Electronics And Communication Engineering",
+      "year": 2,
       "portfolio": {
         "fork": 5,
         "commits": 0,
@@ -4608,6 +4608,14 @@
       "year": 1
     },
     {
+      "github": "ShadhaShareef",
+      "name": "Shadha Mohamed Shareef",
+      "site": "https://ShadhaShareef.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 3
+    },
+    {
       "github": "adissheshen",
       "name": "Adissheshen J Singh",
       "site": "https://adissheshen.github.io/portfolio-template/",
@@ -4702,6 +4710,14 @@
       "college": "",
       "department": "CSE",
       "year": 3
+    },
+    {
+      "github": "Just-SH-alive",
+      "name": "Shreehari Sajankumar",
+      "site": "https://just-sh-alive.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 2
     },
     {
       "github": "mohamedfahadlal",
