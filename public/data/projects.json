@@ -29,6 +29,17 @@
         ],
         "desc": "KeyRush: a typing speed challenge shipped with deliberate defects. Diagnose bugs, fix the logic, and extend features.",
         "url": "https://github.com/tkmfoss/BrokenKey"
+      },
+      {
+        "name": "Cyber-Security-Simulator",
+        "field": "Cybersecurity",
+        "stack": [
+          "React",
+          "Vite",
+          "Tailwind CSS"
+        ],
+        "desc": "Interactive cyber defense trainer: inspect phishing emails, detect fraudulent websites, simulate attacks, and analyze security readiness.",
+        "url": "https://github.com/tkmfoss/Cyber-Security-Simulator"
       }
     ]
   },
