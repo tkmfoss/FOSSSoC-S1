@@ -67,3 +67,8 @@ ehthumbs.db
 *~
 *.bak
 *.tmp
+docs
+
+# Internal Maintainer Seeder Scripts (Secret Bug Catalogs)
+scripts/seed-*.js
+scripts/seed-*
