@@ -40,6 +40,17 @@
         ],
         "desc": "Interactive cyber defense trainer: inspect phishing emails, detect fraudulent websites, simulate attacks, and analyze security readiness.",
         "url": "https://github.com/tkmfoss/Cyber-Security-Simulator"
+      },
+      {
+        "name": "pingpanda",
+        "field": "CLI / Networking",
+        "stack": [
+          "Python",
+          "httpx",
+          "asyncio"
+        ],
+        "desc": "A fast, asynchronous command-line URL status checker: diagnose HTTP status codes, measure latency, track redirect chains, and handle network edge cases.",
+        "url": "https://github.com/tkmfoss/pingpanda"
       }
     ]
   },
