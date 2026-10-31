@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T17:40:07.539Z",
+  "updated": "2026-10-31T11:30:19.313Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -296,6 +296,45 @@
       "college": "Model Engineering College",
       "department": "CSE",
       "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "jobmj",
+      "name": "Jobin M John",
+      "college": "TKMCE",
+      "department": "CSE AI",
+      "year": 3,
       "portfolio": {
         "fork": 5,
         "commits": 5,
@@ -681,11 +720,89 @@
       "tier": "none"
     },
     {
-      "user": "jobmj",
-      "name": "Jobin M John",
+      "user": "Abhynavv",
+      "name": "Abhinav Raj Vc",
       "college": "TKMCE",
-      "department": "CSE AI",
-      "year": 3,
+      "department": "Computer Science and engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 5,
+        "rubric": null,
+        "total": 5,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 5,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 5,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 5,
+      "tier": "none"
+    },
+    {
+      "user": "Just-SH-alive",
+      "name": "Shreehari Sajankumar",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 5,
+        "rubric": null,
+        "total": 5,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 5,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 5,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 5,
+      "tier": "none"
+    },
+    {
+      "user": "KevinGeo-7583",
+      "name": "Kevin Geo Jose",
+      "college": "TKMCE",
+      "department": "Computer Science and Engineering",
+      "year": 2,
       "portfolio": {
         "fork": 5,
         "commits": 0,
@@ -842,45 +959,6 @@
       "college": "TKMCE",
       "department": "Computer Science",
       "year": 3,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "Abhynavv",
-      "name": "Abhinav Raj Vc",
-      "college": "TKMCE",
-      "department": "Computer Science and engineering",
-      "year": 2,
       "portfolio": {
         "fork": 0,
         "commits": 0,
@@ -2787,89 +2865,11 @@
       "tier": "none"
     },
     {
-      "user": "Just-SH-alive",
-      "name": "Shreehari Sajankumar",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
       "user": "Kabooqie",
       "name": "Narayan U",
       "college": "TKMCE",
       "department": "Electrical and Computer Engineering",
       "year": 3,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "KevinGeo-7583",
-      "name": "Kevin Geo Jose",
-      "college": "TKMCE",
-      "department": "Computer Science and Engineering",
-      "year": 2,
       "portfolio": {
         "fork": 0,
         "commits": 0,
@@ -4576,6 +4576,14 @@
       "year": 2
     },
     {
+      "github": "ameengr84-dev",
+      "name": "AMEEN MOHAMMED TP",
+      "site": "https://ameengr84-dev.github.io/portfolio-template/",
+      "college": "",
+      "department": "ECE",
+      "year": 2
+    },
+    {
       "github": "ananthajith17",
       "name": "Ananthajith Girish",
       "site": "https://ananthajith17.github.io/portfolio-template/",
@@ -4622,6 +4630,14 @@
       "college": "",
       "department": "ECE",
       "year": 2
+    },
+    {
+      "github": "jobmj",
+      "name": "Jobin M John",
+      "site": "https://jobmj.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 3
     },
     {
       "github": "mohamedfahadlal",
