@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T18:26:31.844Z",
+  "updated": "2026-11-01T21:33:59.730Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -34,8 +34,8 @@
         "eligible": false
       },
       "projects": {
-        "total": 15,
-        "merged": 1,
+        "total": 50,
+        "merged": 2,
         "pending": 0,
         "prs": [
           {
@@ -51,6 +51,82 @@
             "points": 15,
             "opened": "2026-11-01",
             "merged": "2026-11-01",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 25,
+            "title": "fix(dashboard): derive performance trend chart from real quiz history with empty state",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/25",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 5,
+            "quality": 5,
+            "capped": false,
+            "points": 35,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 50,
+          "prs": 2,
+          "mediumPlus": 1,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 80,
+        "activeMonths": 2,
+        "repos": 2,
+        "eligible": false
+      },
+      "total": 80,
+      "tier": "contributor"
+    },
+    {
+      "user": "aryarnair16",
+      "name": "Arya R Nair",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 19,
+            "title": "fix(ui): improve light mode text contrast",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/19",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-01",
+            "merged": "2026-11-02",
             "month": "2026-11"
           }
         ]
@@ -276,45 +352,6 @@
     {
       "user": "amrinchrissj",
       "name": "Amrin Chris S J",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "aryarnair16",
-      "name": "Arya R Nair",
       "college": "TKMCE",
       "department": "CSE",
       "year": 2,
