@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T16:37:25.765Z",
+  "updated": "2026-11-01T18:26:31.844Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -17,6 +17,67 @@
     }
   },
   "users": [
+    {
+      "user": "anfaalresearch",
+      "name": "MUHAMMED ANFAAL M M",
+      "college": "TKMCE",
+      "department": "CS-AI",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 18,
+            "title": "fix(logic): calculate typing accuracy dynamically from input mistakes",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/18",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-01",
+            "merged": "2026-11-01",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 15,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 45,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 45,
+      "tier": "participant"
+    },
     {
       "user": "Abhynavv",
       "name": "Abhinav Raj Vc",
@@ -218,45 +279,6 @@
       "college": "TKMCE",
       "department": "CSE",
       "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "anfaalresearch",
-      "name": "MUHAMMED ANFAAL M M",
-      "college": "TKMCE",
-      "department": "CS-AI",
-      "year": 1,
       "portfolio": {
         "fork": 5,
         "commits": 5,
