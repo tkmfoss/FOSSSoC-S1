@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T12:27:54.834Z",
+  "updated": "2026-11-01T16:37:25.765Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -1153,6 +1153,45 @@
       "name": "ADITH B K",
       "college": "TKMCE",
       "department": "Electronics And Communication Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 5,
+        "rubric": null,
+        "total": 5,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 5,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 5,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 5,
+      "tier": "none"
+    },
+    {
+      "user": "ro3172007",
+      "name": "Rohit Kishore Ram",
+      "college": "TKMCE",
+      "department": "Computer Science Engineering",
       "year": 2,
       "portfolio": {
         "fork": 5,
@@ -3879,45 +3918,6 @@
       "tier": "none"
     },
     {
-      "user": "ro3172007",
-      "name": "Rohit Kishore Ram",
-      "college": "TKMCE",
-      "department": "Computer Science Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
       "user": "sabeehshihab2-cmd",
       "name": "Mohamed Sabeeh Shihab",
       "college": "TKMCE",
@@ -4540,6 +4540,45 @@
       },
       "total": 0,
       "tier": "none"
+    },
+    {
+      "user": "sefauvais",
+      "name": "Sefa Uvais",
+      "college": "TKMCE",
+      "department": "CS AI",
+      "year": 1,
+      "portfolio": {
+        "fork": 0,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 0,
+        "rubric": null,
+        "total": 0,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 0,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 0,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 0,
+      "tier": "none"
     }
   ],
   "hall": [
@@ -4766,6 +4805,14 @@
       "college": "",
       "department": "CSE",
       "year": 2
+    },
+    {
+      "github": "sreeragvs123",
+      "name": "Sreerag V S",
+      "site": "https://sreeragvs123.github.io/portfolio-template/",
+      "college": "",
+      "department": "CSE",
+      "year": 3
     },
     {
       "github": "Thush-ar",
