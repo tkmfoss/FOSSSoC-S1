@@ -810,5 +810,12 @@
     "college": "TKMCE",
     "department": "Computer Science and Engineering",
     "year": 2
+  },
+  {
+    "github": "sefauvais",
+    "name": "Sefa Uvais",
+    "college": "TKMCE",
+    "department": "CS AI",
+    "year": 1
   }
 ]
