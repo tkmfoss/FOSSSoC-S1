@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T06:58:23.710Z",
+  "updated": "2026-11-02T13:21:01.666Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -110,8 +110,8 @@
         "eligible": false
       },
       "projects": {
-        "total": 15,
-        "merged": 1,
+        "total": 25,
+        "merged": 2,
         "pending": 0,
         "prs": [
           {
@@ -128,13 +128,28 @@
             "opened": "2026-11-01",
             "merged": "2026-11-02",
             "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 21,
+            "title": "fix/ mode-toggle reset issue",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/21",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 10,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 15,
-          "prs": 1,
+          "points": 25,
+          "prs": 2,
           "mediumPlus": 0,
           "eligible": false
         },
@@ -146,13 +161,13 @@
         }
       },
       "overall": {
-        "points": 45,
+        "points": 55,
         "activeMonths": 2,
         "repos": 1,
         "eligible": false
       },
-      "total": 45,
-      "tier": "participant"
+      "total": 55,
+      "tier": "contributor"
     },
     {
       "user": "Abhynavv",
