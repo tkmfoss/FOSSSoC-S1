@@ -1,6 +1,54 @@
 import React from 'react';
 
+function getTodayPosition(now = new Date()) {
+  const keyframes = [
+    { date: '2026-10-20', x: 60, y: 70 },
+    { date: '2026-10-24', x: 140, y: 70 }, // Kickoff
+    { date: '2026-10-26', x: 230, y: 140 }, // profile.json
+    { date: '2026-10-29', x: 300, y: 140 }, // pages deploy
+    { date: '2026-10-31', x: 390, y: 70 }, // merge port-wk
+    { date: '2026-11-01', x: 450, y: 70 }, // build-month branch start
+    { date: '2026-11-03', x: 520, y: 140 }, // entering branch line
+    { date: '2026-11-07', x: 550, y: 140 }, // 1st week bonus end
+    { date: '2026-11-18', x: 620, y: 140 }, // prs review
+    { date: '2026-11-28', x: 660, y: 140 }, // branch exit curve start
+    { date: '2026-11-30', x: 710, y: 70 }, // merge build
+    { date: '2026-12-01', x: 770, y: 70 }, // christmas-eve start
+    { date: '2026-12-04', x: 840, y: 140 }, // entering branch line
+    { date: '2026-12-07', x: 860, y: 140 }, // 1st week bonus end
+    { date: '2026-12-20', x: 920, y: 140 }, // last PRs
+    { date: '2026-12-24', x: 1000, y: 70 }, // merge finale
+    { date: '2026-12-27', x: 1055, y: 70 } // demo day
+  ];
+
+  const nowMs = now.getTime();
+  const first = keyframes[0];
+  const last = keyframes[keyframes.length - 1];
+
+  const firstMs = new Date(`${first.date}T00:00:00+05:30`).getTime();
+  const lastMs = new Date(`${last.date}T23:59:59+05:30`).getTime();
+
+  if (nowMs <= firstMs) return { x: first.x, y: first.y };
+  if (nowMs >= lastMs) return { x: last.x, y: last.y };
+
+  for (let i = 0; i < keyframes.length - 1; i++) {
+    const k1 = keyframes[i];
+    const k2 = keyframes[i + 1];
+    const t1 = new Date(`${k1.date}T00:00:00+05:30`).getTime();
+    const t2 = new Date(`${k2.date}T00:00:00+05:30`).getTime();
+    if (nowMs >= t1 && nowMs <= t2) {
+      const ratio = (nowMs - t1) / (t2 - t1);
+      const x = Math.round(k1.x + (k2.x - k1.x) * ratio);
+      const y = Math.round(k1.y + (k2.y - k1.y) * ratio);
+      return { x, y };
+    }
+  }
+  return { x: 510, y: 130 };
+}
+
 export default function GitBranchCalendar() {
+  const todayPos = React.useMemo(() => getTodayPosition(), []);
+
   return (
     <div
       style={{
@@ -82,8 +130,8 @@ export default function GitBranchCalendar() {
             strokeWidth="2.5"
           />
 
-          {/* TODAY PIN: Placed with clearance before kickoff */}
-          <g transform="translate(60, 70)">
+          {/* TODAY PIN: Dynamically positioned based on current date */}
+          <g transform={`translate(${todayPos.x}, ${todayPos.y})`}>
             <circle cx="0" cy="0" r="9" fill="none" stroke="var(--color-warning)" strokeWidth="2" />
             <circle cx="0" cy="0" r="3.5" fill="var(--color-warning)" />
             <line x1="0" y1="-12" x2="0" y2="-28" stroke="var(--color-warning)" strokeWidth="1.5" />
