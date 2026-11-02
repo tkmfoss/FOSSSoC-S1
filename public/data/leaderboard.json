@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T13:21:01.666Z",
+  "updated": "2026-11-02T18:18:47.622Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -110,8 +110,8 @@
         "eligible": false
       },
       "projects": {
-        "total": 25,
-        "merged": 2,
+        "total": 40,
+        "merged": 3,
         "pending": 0,
         "prs": [
           {
@@ -143,13 +143,28 @@
             "opened": "2026-11-02",
             "merged": "2026-11-02",
             "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 26,
+            "title": "fix/insepct-another fixed to move to next example website",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/26",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 25,
-          "prs": 2,
+          "points": 40,
+          "prs": 3,
           "mediumPlus": 0,
           "eligible": false
         },
@@ -161,13 +176,211 @@
         }
       },
       "overall": {
-        "points": 55,
+        "points": 70,
+        "activeMonths": 2,
+        "repos": 2,
+        "eligible": false
+      },
+      "total": 70,
+      "tier": "contributor"
+    },
+    {
+      "user": "cosmiccoder200x-sys",
+      "name": "sreerang",
+      "college": "TKMCE",
+      "department": "Electrical and computer engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 40,
+        "merged": 2,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 29,
+            "title": "refactor(ui): Move achievement badges to Dashboard",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/29",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 31,
+            "title": "fix: prevent replayed scenarios from inflating completion stats",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/31",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 25,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 40,
+          "prs": 2,
+          "mediumPlus": 1,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 70,
         "activeMonths": 2,
         "repos": 1,
         "eligible": false
       },
-      "total": 55,
+      "total": 70,
       "tier": "contributor"
+    },
+    {
+      "user": "ayisha-ziana",
+      "name": "Ayisha Ziana Subair",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 32,
+            "title": "Improve quiz timer visibility and warnings",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/32",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 15,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 45,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 45,
+      "tier": "participant"
+    },
+    {
+      "user": "shivanisreejith1",
+      "name": "Shivani s",
+      "college": "TKMCE",
+      "department": "Cse",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 23,
+            "title": "fix(timer): stop countdown at zero",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/23",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 15,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 45,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 45,
+      "tier": "participant"
     },
     {
       "user": "Abhynavv",
@@ -443,88 +656,10 @@
       "tier": "participant"
     },
     {
-      "user": "ayisha-ziana",
-      "name": "Ayisha Ziana Subair",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 1,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
       "user": "Bhadra-S07",
       "name": "Bhadra S",
       "college": "TKMCE",
       "department": "Computer Science and Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "cosmiccoder200x-sys",
-      "name": "sreerang",
-      "college": "TKMCE",
-      "department": "Electrical and computer engineering",
       "year": 2,
       "portfolio": {
         "fork": 5,
@@ -1032,45 +1167,6 @@
       "name": "Shifana T K",
       "college": "TKMCE",
       "department": "Computer Science and Engineering",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "shivanisreejith1",
-      "name": "Shivani s",
-      "college": "TKMCE",
-      "department": "Cse",
       "year": 3,
       "portfolio": {
         "fork": 5,
