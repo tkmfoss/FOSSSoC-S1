@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T21:33:59.730Z",
+  "updated": "2026-11-02T06:58:23.710Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -355,6 +355,45 @@
       "college": "TKMCE",
       "department": "CSE",
       "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "ananthajith17",
+      "name": "Ananthajith Girish",
+      "college": "TKMCE",
+      "department": "Mechanical",
+      "year": 1,
       "portfolio": {
         "fork": 5,
         "commits": 5,
@@ -1057,6 +1096,45 @@
       "college": "TKMCE",
       "department": "CS-Ai",
       "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 30,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 30,
+      "tier": "participant"
+    },
+    {
+      "user": "Thush-ar",
+      "name": "Thushar",
+      "college": "TKMCE",
+      "department": "CS AI",
+      "year": 3,
       "portfolio": {
         "fork": 5,
         "commits": 5,
@@ -1798,45 +1876,6 @@
       "college": "TKMCE",
       "department": "CS",
       "year": 2,
-      "portfolio": {
-        "fork": 0,
-        "commits": 0,
-        "live": 0,
-        "showcase": 0,
-        "auto": 0,
-        "rubric": null,
-        "total": 0,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 0,
-          "prs": 0,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 0,
-        "activeMonths": 0,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 0,
-      "tier": "none"
-    },
-    {
-      "user": "anantahjith",
-      "name": "Ananthajith Girish",
-      "college": "TKMCE",
-      "department": "Mechanical",
-      "year": 1,
       "portfolio": {
         "fork": 0,
         "commits": 0,
@@ -4749,8 +4788,8 @@
       "github": "ananthajith17",
       "name": "Ananthajith Girish",
       "site": "https://ananthajith17.github.io/portfolio-template/",
-      "college": "",
-      "department": "ME",
+      "college": "TKMCE",
+      "department": "Mechanical",
       "year": 1
     },
     {
@@ -4877,8 +4916,8 @@
       "github": "Thush-ar",
       "name": "Thushar",
       "site": "https://thush-ar.github.io/portfolio-template/",
-      "college": "",
-      "department": "CSE",
+      "college": "TKMCE",
+      "department": "CS AI",
       "year": 3
     }
   ]
