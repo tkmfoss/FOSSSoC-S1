@@ -213,6 +213,30 @@ export default function LeaderboardPage() {
           </div>
         </div>
 
+        {/* Sync Schedule Notification */}
+        <div
+          style={{
+            padding: '0.65rem 1rem',
+            borderRadius: 'var(--radius-sm)',
+            border: '1px solid var(--theme-border)',
+            background: 'rgba(0, 245, 212, 0.04)',
+            fontFamily: 'var(--font-mono)',
+            fontSize: '0.8rem',
+            color: 'var(--color-text-muted)',
+            marginBottom: '1rem',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '0.6rem'
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <span style={{ color: 'var(--theme-primary)', fontWeight: 700 }}>● SYNC SCHEDULE:</span>
+            <span>Leaderboard updates twice daily at <strong>1:30 PM</strong> and <strong>11:30 PM IST</strong>. Newly merged PRs will reflect in the next sync window.</span>
+          </div>
+        </div>
+
         {/* Timestamp */}
         <div
           style={{
@@ -222,13 +246,15 @@ export default function LeaderboardPage() {
             fontSize: '0.75rem',
             fontFamily: 'var(--font-mono)',
             color: 'var(--color-text-subtle)',
-            marginBottom: '1rem'
+            marginBottom: '1rem',
+            flexWrap: 'wrap',
+            gap: '0.5rem'
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
             <Clock size={12} />
             <span>
-              Updated: {data?.updated ? new Date(data.updated).toLocaleTimeString() : 'Not synced'} (auto-refreshes every 5m)
+              Last synced: {data?.updated ? `${new Date(data.updated).toLocaleDateString([], { month: 'short', day: 'numeric' })}, ${new Date(data.updated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}` : 'Not synced'} (browser auto-refreshes every 5m)
             </span>
           </div>
           <div>Rows: {filteredRows.length}</div>

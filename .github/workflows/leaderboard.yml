@@ -1,6 +1,7 @@
 name: Update leaderboard
 on:
-  schedule: [{ cron: "0 */6 * * *" }]
+  # Runs twice a day: 1:30 PM IST (08:00 UTC) and 11:30 PM IST (18:00 UTC)
+  schedule: [{ cron: "0 8,18 * * *" }]
   workflow_dispatch:
 permissions:
   contents: write

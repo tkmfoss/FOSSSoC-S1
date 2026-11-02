@@ -57,7 +57,7 @@ export default function RulesPage() {
             <div><strong style={{ color: 'var(--color-white)' }}>First-week bonus (+{POINTS.firstWeekBonus} pts):</strong> Awarded on your earliest-opened scored PR in each repo, if opened in the first week of the month (1-7 Nov for Build Month; 1-7 Dec for Christmas Eve Month).</div>
             <div><strong style={{ color: 'var(--color-white)' }}>Quality bonus (+{POINTS.qualityBonus} pts):</strong> Granted via maintainer's quality:excellent label for high code quality, tests, or documentation.</div>
             <div><strong style={{ color: 'var(--color-white)' }}>{POINTS.repoCap} PRs per repo cap:</strong> Only the first {POINTS.repoCap} scored PRs per repository count towards points. Further PRs are capped at 0 pts.</div>
-            <div><strong style={{ color: 'var(--color-white)' }}>Merge credit rule:</strong> Points are credited only after merge; a PR counts for the month it was opened.</div>
+            <div><strong style={{ color: 'var(--color-white)' }}>Merge credit rule:</strong> Points are credited only after merge; a PR counts for the month it was opened. The leaderboard recalculates and syncs twice daily at <strong>1:30 PM</strong> and <strong>11:30 PM IST</strong>.</div>
             <div><strong style={{ color: 'var(--color-white)' }}>Spam or invalid:</strong> 0 points. Automated or copy-pasted low-effort submissions are disqualified.</div>
           </div>
         </div>
