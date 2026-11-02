@@ -147,7 +147,7 @@
     "year": 2
   },
   {
-    "github": "anantahjith",
+    "github": "ananthajith17",
     "name": "Ananthajith Girish",
     "college": "TKMCE",
     "department": "Mechanical",
@@ -817,5 +817,12 @@
     "college": "TKMCE",
     "department": "CS AI",
     "year": 1
+  },
+  {
+    "github": "Thush-ar",
+    "name": "Thushar",
+    "college": "TKMCE",
+    "department": "CS AI",
+    "year": 3
   }
 ]
