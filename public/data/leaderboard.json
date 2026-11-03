@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T18:18:47.622Z",
+  "updated": "2026-11-03T00:24:10.300Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -36,7 +36,7 @@
       "projects": {
         "total": 50,
         "merged": 2,
-        "pending": 0,
+        "pending": 1,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -110,9 +110,9 @@
         "eligible": false
       },
       "projects": {
-        "total": 40,
+        "total": 45,
         "merged": 3,
-        "pending": 0,
+        "pending": 1,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -152,9 +152,9 @@
             "level": "easy",
             "base": 10,
             "firstWeek": 5,
-            "quality": 0,
+            "quality": 5,
             "capped": false,
-            "points": 15,
+            "points": 20,
             "opened": "2026-11-02",
             "merged": "2026-11-02",
             "month": "2026-11"
@@ -163,7 +163,7 @@
       },
       "months": {
         "2026-11": {
-          "points": 40,
+          "points": 45,
           "prs": 3,
           "mediumPlus": 0,
           "eligible": false
@@ -176,12 +176,12 @@
         }
       },
       "overall": {
-        "points": 70,
+        "points": 75,
         "activeMonths": 2,
         "repos": 2,
         "eligible": false
       },
-      "total": 70,
+      "total": 75,
       "tier": "contributor"
     },
     {
@@ -294,6 +294,67 @@
             "points": 15,
             "opened": "2026-11-02",
             "merged": "2026-11-02",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 15,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 45,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 45,
+      "tier": "participant"
+    },
+    {
+      "user": "NithyaVinay",
+      "name": "Nithya Vinay",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
+        "eligible": false
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 26,
+            "title": "Fixed error counter when replacing typed text with ctrl+a.",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/26",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
             "month": "2026-11"
           }
         ]
@@ -1012,45 +1073,6 @@
       "college": "TKMCE",
       "department": "Computer Science Engineering",
       "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "NithyaVinay",
-      "name": "Nithya Vinay",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 1,
       "portfolio": {
         "fork": 5,
         "commits": 5,
