@@ -1,5 +1,39 @@
 {
-  "october": [],
+  "october": [
+    {
+      "rank": 1,
+      "award": "1st Place",
+      "name": "Jobin M John",
+      "user": "jobmj",
+      "college": "TKMCE",
+      "department": "CSE AI",
+      "year": 3,
+      "points": 49.2,
+      "site": "https://jobmj.github.io/portfolio-template/"
+    },
+    {
+      "rank": 2,
+      "award": "2nd Place",
+      "name": "sreerang",
+      "user": "cosmiccoder200x-sys",
+      "college": "TKMCE",
+      "department": "Electrical and computer engineering",
+      "year": 2,
+      "points": 49.0,
+      "site": "https://cosmiccoder200x-sys.github.io/portfolio-template/"
+    },
+    {
+      "rank": 3,
+      "award": "3rd Place",
+      "name": "MUHAMMED ANFAAL M M",
+      "user": "anfaalresearch",
+      "college": "TKMCE",
+      "department": "CS-AI",
+      "year": 1,
+      "points": 48.5,
+      "site": "https://anfaalresearch.github.io/portfolio-template/"
+    }
+  ],
   "november": [],
   "december": [],
   "overall": []
