@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T00:24:10.300Z",
+  "updated": "2026-11-03T08:19:29.741Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -34,9 +34,9 @@
         "eligible": false
       },
       "projects": {
-        "total": 50,
-        "merged": 2,
-        "pending": 1,
+        "total": 105,
+        "merged": 3,
+        "pending": 0,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -67,14 +67,29 @@
             "opened": "2026-11-02",
             "merged": "2026-11-02",
             "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 34,
+            "title": "feat: add cyber defense xp and rank progression engine across modules",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/34",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-02",
+            "merged": "2026-11-03",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 50,
-          "prs": 2,
-          "mediumPlus": 1,
+          "points": 105,
+          "prs": 3,
+          "mediumPlus": 2,
           "eligible": true
         },
         "2026-10": {
@@ -85,12 +100,103 @@
         }
       },
       "overall": {
-        "points": 80,
+        "points": 135,
         "activeMonths": 2,
         "repos": 2,
+        "eligible": true
+      },
+      "total": 135,
+      "tier": "contributor"
+    },
+    {
+      "user": "cosmiccoder200x-sys",
+      "name": "sreerang",
+      "college": "TKMCE",
+      "department": "Electrical and computer engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": null,
+        "total": 30,
         "eligible": false
       },
-      "total": 80,
+      "projects": {
+        "total": 95,
+        "merged": 3,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 29,
+            "title": "refactor(ui): Move achievement badges to Dashboard",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/29",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 31,
+            "title": "fix: prevent replayed scenarios from inflating completion stats",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/31",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 25,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 37,
+            "title": "Feat/url threat analysis engine upstream",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/37",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 95,
+          "prs": 3,
+          "mediumPlus": 2,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 30,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 125,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 125,
       "tier": "contributor"
     },
     {
@@ -110,9 +216,9 @@
         "eligible": false
       },
       "projects": {
-        "total": 45,
-        "merged": 3,
-        "pending": 1,
+        "total": 70,
+        "merged": 4,
+        "pending": 0,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -158,91 +264,30 @@
             "opened": "2026-11-02",
             "merged": "2026-11-02",
             "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 45,
-          "prs": 3,
-          "mediumPlus": 0,
-          "eligible": false
-        },
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 75,
-        "activeMonths": 2,
-        "repos": 2,
-        "eligible": false
-      },
-      "total": 75,
-      "tier": "contributor"
-    },
-    {
-      "user": "cosmiccoder200x-sys",
-      "name": "sreerang",
-      "college": "TKMCE",
-      "department": "Electrical and computer engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 40,
-        "merged": 2,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 29,
-            "title": "refactor(ui): Move achievement badges to Dashboard",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/29",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
           },
           {
-            "repo": "Cyber-Security-Simulator",
-            "number": 31,
-            "title": "fix: prevent replayed scenarios from inflating completion stats",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/31",
+            "repo": "BrokenKey",
+            "number": 27,
+            "title": "feat: implement ghost typing simulation and difficulty selection",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/27",
             "level": "medium",
             "base": 25,
             "firstWeek": 0,
             "quality": 0,
             "capped": false,
             "points": 25,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
             "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 40,
-          "prs": 2,
+          "points": 70,
+          "prs": 4,
           "mediumPlus": 1,
-          "eligible": false
+          "eligible": true
         },
         "2026-10": {
           "points": 30,
@@ -252,12 +297,12 @@
         }
       },
       "overall": {
-        "points": 70,
+        "points": 100,
         "activeMonths": 2,
-        "repos": 1,
+        "repos": 2,
         "eligible": false
       },
-      "total": 70,
+      "total": 100,
       "tier": "contributor"
     },
     {
