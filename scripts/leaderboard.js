@@ -17,7 +17,18 @@ const H = {
     Authorization: `Bearer ${process.env.GH_TOKEN}`, Accept: 'application/vnd.github+json',
     'User-Agent': 'soc-bot', 'Content-Type': 'application/json'
 };
-const api = async (p) => { const r = await fetch('https://api.github.com' + p, { headers: H }); return r.ok ? r.json() : null; };
+const api = async (p) => {
+    for (let i = 0; i < 3; i++) {
+        try {
+            const r = await fetch('https://api.github.com' + p, { headers: H });
+            return r.ok ? r.json() : null;
+        } catch {
+            if (i === 2) return null;
+            await new Promise((res) => setTimeout(res, 1000));
+        }
+    }
+    return null;
+};
 const readJSON = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
 const ist = (d) => new Date(new Date(d).getTime() + 19800000).toISOString().slice(0, 10);
 const low = (s) => String(s).toLowerCase();
@@ -30,9 +41,18 @@ const Q = `query($q:String!,$after:String){search(query:$q,type:ISSUE,first:50,a
 async function prSearch(q) {
     let after = null; const out = [];
     do {
-        const r = await fetch('https://api.github.com/graphql',
-            { method: 'POST', headers: H, body: JSON.stringify({ query: Q, variables: { q, after } }) });
-        const j = await r.json();
+        let j = null;
+        for (let i = 0; i < 3; i++) {
+            try {
+                const r = await fetch('https://api.github.com/graphql',
+                    { method: 'POST', headers: H, body: JSON.stringify({ query: Q, variables: { q, after } }) });
+                j = await r.json();
+                break;
+            } catch (e) {
+                if (i === 2) throw e;
+                await new Promise((res) => setTimeout(res, 1000));
+            }
+        }
         if (j.errors) throw new Error(JSON.stringify(j.errors));
         if (j.message) throw new Error(`GitHub GraphQL API error: ${j.message}`);
         if (!j.data?.search) throw new Error(`Unexpected GitHub response: ${JSON.stringify(j)}`);
@@ -125,7 +145,7 @@ async function portfolio(login, tpl, showPR, rubric, ov) {
 
     // ---- Project months
     const base = `org:${ORG} is:pr label:${LABEL} created:>=${START}`;
-    const merged = (await prSearch(`${base} is:merged`)).filter((p) => p.author);
+    const merged = (await prSearch(`${base} is:closed`)).filter((p) => p.author && p.mergedAt);
     const open = (await prSearch(`${base} is:open`)).filter((p) => p.author);
     merged.sort((a, b) => new Date(a.mergedAt) - new Date(b.mergedAt));
     const count = {}, rows = [];

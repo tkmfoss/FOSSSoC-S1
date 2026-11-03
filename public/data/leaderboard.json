@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T08:19:29.741Z",
+  "updated": "2026-11-03T11:53:48.236Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -18,6 +18,112 @@
   },
   "users": [
     {
+      "user": "cosmiccoder200x-sys",
+      "name": "sreerang",
+      "college": "TKMCE",
+      "department": "Electrical and computer engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 19,
+        "total": 49,
+        "eligible": true
+      },
+      "projects": {
+        "total": 145,
+        "merged": 4,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 29,
+            "title": "refactor(ui): Move achievement badges to Dashboard",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/29",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 31,
+            "title": "fix: prevent replayed scenarios from inflating completion stats",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/31",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 25,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 37,
+            "title": "Feat/url threat analysis engine upstream",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/37",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 38,
+            "title": "feat(learning): Implement Custom Quiz Builder",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/38",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 145,
+          "prs": 4,
+          "mediumPlus": 3,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 49,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 194,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 194,
+      "tier": "core"
+    },
+    {
       "user": "anfaalresearch",
       "name": "MUHAMMED ANFAAL M M",
       "college": "TKMCE",
@@ -29,9 +135,9 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 18.5,
+        "total": 48.5,
+        "eligible": true
       },
       "projects": {
         "total": 105,
@@ -93,111 +199,20 @@
           "eligible": true
         },
         "2026-10": {
-          "points": 30,
+          "points": 48.5,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 135,
+        "points": 153.5,
         "activeMonths": 2,
         "repos": 2,
         "eligible": true
       },
-      "total": 135,
-      "tier": "contributor"
-    },
-    {
-      "user": "cosmiccoder200x-sys",
-      "name": "sreerang",
-      "college": "TKMCE",
-      "department": "Electrical and computer engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 95,
-        "merged": 3,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 29,
-            "title": "refactor(ui): Move achievement badges to Dashboard",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/29",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 31,
-            "title": "fix: prevent replayed scenarios from inflating completion stats",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/31",
-            "level": "medium",
-            "base": 25,
-            "firstWeek": 0,
-            "quality": 0,
-            "capped": false,
-            "points": 25,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 37,
-            "title": "Feat/url threat analysis engine upstream",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/37",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 5,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 95,
-          "prs": 3,
-          "mediumPlus": 2,
-          "eligible": true
-        },
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 125,
-        "activeMonths": 2,
-        "repos": 1,
-        "eligible": false
-      },
-      "total": 125,
-      "tier": "contributor"
+      "total": 153.5,
+      "tier": "core"
     },
     {
       "user": "aryarnair16",
@@ -211,9 +226,9 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 17.6,
+        "total": 47.6,
+        "eligible": true
       },
       "projects": {
         "total": 70,
@@ -290,142 +305,20 @@
           "eligible": true
         },
         "2026-10": {
-          "points": 30,
+          "points": 47.6,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 100,
+        "points": 117.6,
         "activeMonths": 2,
         "repos": 2,
         "eligible": false
       },
-      "total": 100,
+      "total": 117.6,
       "tier": "contributor"
-    },
-    {
-      "user": "ayisha-ziana",
-      "name": "Ayisha Ziana Subair",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 1,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 15,
-        "merged": 1,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 32,
-            "title": "Improve quiz timer visibility and warnings",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/32",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 15,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        },
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 45,
-        "activeMonths": 2,
-        "repos": 1,
-        "eligible": false
-      },
-      "total": 45,
-      "tier": "participant"
-    },
-    {
-      "user": "NithyaVinay",
-      "name": "Nithya Vinay",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 1,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 15,
-        "merged": 1,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "BrokenKey",
-            "number": 26,
-            "title": "Fixed error counter when replacing typed text with ctrl+a.",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/26",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 15,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        },
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 45,
-        "activeMonths": 2,
-        "repos": 1,
-        "eligible": false
-      },
-      "total": 45,
-      "tier": "participant"
     },
     {
       "user": "shivanisreejith1",
@@ -439,9 +332,9 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 18.4,
+        "total": 48.4,
+        "eligible": true
       },
       "projects": {
         "total": 15,
@@ -473,566 +366,20 @@
           "eligible": false
         },
         "2026-10": {
-          "points": 30,
+          "points": 48.4,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 45,
+        "points": 63.4,
         "activeMonths": 2,
         "repos": 1,
         "eligible": false
       },
-      "total": 45,
-      "tier": "participant"
-    },
-    {
-      "user": "Abhynavv",
-      "name": "Abhinav Raj Vc",
-      "college": "TKMCE",
-      "department": "Computer Science and engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "adissheshen",
-      "name": "Adissheshen J Singh",
-      "college": "TKMCE",
-      "department": "Electrical and Computer Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Adithya-rb-here",
-      "name": "Adithya R B",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "akheen1234",
-      "name": "Akheen Rajendran",
-      "college": "TKMCE",
-      "department": "Computer Science",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "ameengr84-dev",
-      "name": "Ameen Mohammed TP",
-      "college": "TKMCE",
-      "department": "ELECTRONICS AND COMMUNICATION ENGINEERING",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "amrinchrissj",
-      "name": "Amrin Chris S J",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "ananthajith17",
-      "name": "Ananthajith Girish",
-      "college": "TKMCE",
-      "department": "Mechanical",
-      "year": 1,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Bhadra-S07",
-      "name": "Bhadra S",
-      "college": "TKMCE",
-      "department": "Computer Science and Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "fahad2k07-gpio",
-      "name": "Fahad S Rahuman",
-      "college": "TKMCE",
-      "department": "Electronics and communication engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Fathima-nazarin",
-      "name": "Fathima Nazarin",
-      "college": "TKMCE",
-      "department": "Electronics and Communication",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Hari-c137",
-      "name": "Hariprasad Aji",
-      "college": "Model Engineering College",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "jobmj",
-      "name": "Jobin M John",
-      "college": "TKMCE",
-      "department": "CSE AI",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Just-SH-alive",
-      "name": "Shreehari Sajankumar",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "KevinGeo-7583",
-      "name": "Kevin Geo Jose",
-      "college": "TKMCE",
-      "department": "Computer Science and Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
+      "total": 63.4,
+      "tier": "contributor"
     },
     {
       "user": "mohamedfahadlal",
@@ -1046,114 +393,58 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 17.2,
+        "total": 47.2,
+        "eligible": true
       },
       "projects": {
-        "total": 0,
-        "merged": 0,
+        "total": 15,
+        "merged": 1,
         "pending": 0,
-        "prs": []
+        "prs": [
+          {
+            "repo": "pingpanda",
+            "number": 19,
+            "title": "fix: #3 changed default URLs scheme from HTTP to HTTPS",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/19",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          }
+        ]
       },
       "months": {
-        "2026-10": {
-          "points": 30,
+        "2026-11": {
+          "points": 15,
           "prs": 1,
           "mediumPlus": 0,
           "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Mohd-Hanan",
-      "name": "Muhammad Hanan P P",
-      "college": "TKMCE",
-      "department": "CS(AI)",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
+        },
         "2026-10": {
-          "points": 30,
+          "points": 47.2,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
+        "points": 62.2,
+        "activeMonths": 2,
+        "repos": 1,
         "eligible": false
       },
-      "total": 30,
-      "tier": "participant"
+      "total": 62.2,
+      "tier": "contributor"
     },
     {
-      "user": "Niranjana-553",
-      "name": "Niranjana S",
-      "college": "TKMCE",
-      "department": "Computer Science Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 30,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        }
-      },
-      "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 30,
-      "tier": "participant"
-    },
-    {
-      "user": "Rizwanack7",
-      "name": "Rizwana chenganakkattil",
+      "user": "NithyaVinay",
+      "name": "Nithya Vinay",
       "college": "TKMCE",
       "department": "CSE",
       "year": 1,
@@ -1163,38 +454,60 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 17.1,
+        "total": 47.1,
+        "eligible": true
       },
       "projects": {
-        "total": 0,
-        "merged": 0,
+        "total": 15,
+        "merged": 1,
         "pending": 0,
-        "prs": []
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 26,
+            "title": "Fixed error counter when replacing typed text with ctrl+a.",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/26",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          }
+        ]
       },
       "months": {
-        "2026-10": {
-          "points": 30,
+        "2026-11": {
+          "points": 15,
           "prs": 1,
           "mediumPlus": 0,
           "eligible": false
+        },
+        "2026-10": {
+          "points": 47.1,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
         }
       },
       "overall": {
-        "points": 30,
-        "activeMonths": 1,
-        "repos": 0,
+        "points": 62.1,
+        "activeMonths": 2,
+        "repos": 1,
         "eligible": false
       },
-      "total": 30,
-      "tier": "participant"
+      "total": 62.1,
+      "tier": "contributor"
     },
     {
-      "user": "sanooja-bs",
-      "name": "Sanooja B S",
+      "user": "ayisha-ziana",
+      "name": "Ayisha Ziana Subair",
       "college": "TKMCE",
-      "department": "Computer science and engineering",
+      "department": "CSE",
       "year": 1,
       "portfolio": {
         "fork": 5,
@@ -1202,9 +515,70 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
+        "rubric": 16.7,
+        "total": 46.7,
+        "eligible": true
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 32,
+            "title": "Improve quiz timer visibility and warnings",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/32",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 15,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 46.7,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 61.7,
+        "activeMonths": 2,
+        "repos": 1,
         "eligible": false
+      },
+      "total": 61.7,
+      "tier": "contributor"
+    },
+    {
+      "user": "jobmj",
+      "name": "Jobin M John",
+      "college": "TKMCE",
+      "department": "CSE AI",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 19.2,
+        "total": 49.2,
+        "eligible": true
       },
       "projects": {
         "total": 0,
@@ -1214,19 +588,19 @@
       },
       "months": {
         "2026-10": {
-          "points": 30,
+          "points": 49.2,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 30,
+        "points": 49.2,
         "activeMonths": 1,
         "repos": 0,
         "eligible": false
       },
-      "total": 30,
+      "total": 49.2,
       "tier": "participant"
     },
     {
@@ -1241,9 +615,9 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 18.2,
+        "total": 48.2,
+        "eligible": true
       },
       "projects": {
         "total": 0,
@@ -1253,26 +627,26 @@
       },
       "months": {
         "2026-10": {
-          "points": 30,
+          "points": 48.2,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 30,
+        "points": 48.2,
         "activeMonths": 1,
         "repos": 0,
         "eligible": false
       },
-      "total": 30,
+      "total": 48.2,
       "tier": "participant"
     },
     {
-      "user": "sinandesktop",
-      "name": "Muhammed Sinan S",
+      "user": "akheen1234",
+      "name": "Akheen Rajendran",
       "college": "TKMCE",
-      "department": "CS-Ai",
+      "department": "Computer Science",
       "year": 2,
       "portfolio": {
         "fork": 5,
@@ -1280,9 +654,9 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 18.1,
+        "total": 48.1,
+        "eligible": true
       },
       "projects": {
         "total": 0,
@@ -1292,19 +666,253 @@
       },
       "months": {
         "2026-10": {
-          "points": 30,
+          "points": 48.1,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 30,
+        "points": 48.1,
         "activeMonths": 1,
         "repos": 0,
         "eligible": false
       },
-      "total": 30,
+      "total": 48.1,
+      "tier": "participant"
+    },
+    {
+      "user": "Mohd-Hanan",
+      "name": "Muhammad Hanan P P",
+      "college": "TKMCE",
+      "department": "CS(AI)",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 18,
+        "total": 48,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 48,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 48,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 48,
+      "tier": "participant"
+    },
+    {
+      "user": "Niranjana-553",
+      "name": "Niranjana S",
+      "college": "TKMCE",
+      "department": "Computer Science Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 18,
+        "total": 48,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 48,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 48,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 48,
+      "tier": "participant"
+    },
+    {
+      "user": "Bhadra-S07",
+      "name": "Bhadra S",
+      "college": "TKMCE",
+      "department": "Computer Science and Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 17.7,
+        "total": 47.7,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 47.7,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 47.7,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 47.7,
+      "tier": "participant"
+    },
+    {
+      "user": "Just-SH-alive",
+      "name": "Shreehari Sajankumar",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 17.7,
+        "total": 47.7,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 47.7,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 47.7,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 47.7,
+      "tier": "participant"
+    },
+    {
+      "user": "Abhynavv",
+      "name": "Abhinav Raj Vc",
+      "college": "TKMCE",
+      "department": "Computer Science and engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 17.2,
+        "total": 47.2,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 47.2,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 47.2,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 47.2,
+      "tier": "participant"
+    },
+    {
+      "user": "Adithya-rb-here",
+      "name": "Adithya R B",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 17.2,
+        "total": 47.2,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 47.2,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 47.2,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 47.2,
       "tier": "participant"
     },
     {
@@ -1319,9 +927,9 @@
         "live": 10,
         "showcase": 10,
         "auto": 30,
-        "rubric": null,
-        "total": 30,
-        "eligible": false
+        "rubric": 17.2,
+        "total": 47.2,
+        "eligible": true
       },
       "projects": {
         "total": 0,
@@ -1331,24 +939,375 @@
       },
       "months": {
         "2026-10": {
-          "points": 30,
+          "points": 47.2,
           "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 30,
+        "points": 47.2,
         "activeMonths": 1,
         "repos": 0,
         "eligible": false
       },
-      "total": 30,
+      "total": 47.2,
       "tier": "participant"
     },
     {
-      "user": "nivedhika2007",
-      "name": "Nivedhika Thottiyil",
+      "user": "sanooja-bs",
+      "name": "Sanooja B S",
+      "college": "TKMCE",
+      "department": "Computer science and engineering",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 16.5,
+        "total": 46.5,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 46.5,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 46.5,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 46.5,
+      "tier": "participant"
+    },
+    {
+      "user": "fahad2k07-gpio",
+      "name": "Fahad S Rahuman",
+      "college": "TKMCE",
+      "department": "Electronics and communication engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 16.1,
+        "total": 46.1,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 46.1,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 46.1,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 46.1,
+      "tier": "participant"
+    },
+    {
+      "user": "Fathima-nazarin",
+      "name": "Fathima Nazarin",
+      "college": "TKMCE",
+      "department": "Electronics and Communication",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 15.9,
+        "total": 45.9,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 45.9,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 45.9,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 45.9,
+      "tier": "participant"
+    },
+    {
+      "user": "Hari-c137",
+      "name": "Hariprasad Aji",
+      "college": "Model Engineering College",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 15.6,
+        "total": 45.6,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 45.6,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 45.6,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 45.6,
+      "tier": "participant"
+    },
+    {
+      "user": "ameengr84-dev",
+      "name": "Ameen Mohammed TP",
+      "college": "TKMCE",
+      "department": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 15.2,
+        "total": 45.2,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 45.2,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 45.2,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 45.2,
+      "tier": "participant"
+    },
+    {
+      "user": "adissheshen",
+      "name": "Adissheshen J Singh",
+      "college": "TKMCE",
+      "department": "Electrical and Computer Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 15,
+        "total": 45,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 45,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 45,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 45,
+      "tier": "participant"
+    },
+    {
+      "user": "sinandesktop",
+      "name": "Muhammed Sinan S",
+      "college": "TKMCE",
+      "department": "CS-Ai",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 14.6,
+        "total": 44.6,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 44.6,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 44.6,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 44.6,
+      "tier": "participant"
+    },
+    {
+      "user": "KevinGeo-7583",
+      "name": "Kevin Geo Jose",
+      "college": "TKMCE",
+      "department": "Computer Science and Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 13.7,
+        "total": 43.7,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 43.7,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 43.7,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 43.7,
+      "tier": "participant"
+    },
+    {
+      "user": "amrinchrissj",
+      "name": "Amrin Chris S J",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 13.3,
+        "total": 43.3,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 43.3,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 43.3,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 43.3,
+      "tier": "participant"
+    },
+    {
+      "user": "Rizwanack7",
+      "name": "Rizwana chenganakkattil",
       "college": "TKMCE",
       "department": "CSE",
       "year": 1,
@@ -1356,11 +1315,11 @@
         "fork": 5,
         "commits": 5,
         "live": 10,
-        "showcase": 0,
-        "auto": 20,
-        "rubric": null,
-        "total": 20,
-        "eligible": false
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 13.3,
+        "total": 43.3,
+        "eligible": true
       },
       "projects": {
         "total": 0,
@@ -1370,20 +1329,59 @@
       },
       "months": {
         "2026-10": {
-          "points": 20,
-          "prs": 0,
+          "points": 43.3,
+          "prs": 1,
           "mediumPlus": 0,
-          "eligible": false
+          "eligible": true
         }
       },
       "overall": {
-        "points": 20,
-        "activeMonths": 0,
+        "points": 43.3,
+        "activeMonths": 1,
         "repos": 0,
         "eligible": false
       },
-      "total": 20,
-      "tier": "none"
+      "total": 43.3,
+      "tier": "participant"
+    },
+    {
+      "user": "ananthajith17",
+      "name": "Ananthajith Girish",
+      "college": "TKMCE",
+      "department": "Mechanical",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 13.1,
+        "total": 43.1,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 43.1,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 43.1,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 43.1,
+      "tier": "participant"
     },
     {
       "user": "ShadhaShareef",
@@ -1397,8 +1395,8 @@
         "live": 10,
         "showcase": 0,
         "auto": 20,
-        "rubric": null,
-        "total": 20,
+        "rubric": 19.9,
+        "total": 39.9,
         "eligible": false
       },
       "projects": {
@@ -1409,19 +1407,19 @@
       },
       "months": {
         "2026-10": {
-          "points": 20,
+          "points": 39.9,
           "prs": 0,
           "mediumPlus": 0,
           "eligible": false
         }
       },
       "overall": {
-        "points": 20,
+        "points": 39.9,
         "activeMonths": 0,
         "repos": 0,
         "eligible": false
       },
-      "total": 20,
+      "total": 39.9,
       "tier": "none"
     },
     {
@@ -1430,6 +1428,45 @@
       "college": "TKMCE",
       "department": "Computer science and engineering",
       "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 0,
+        "auto": 20,
+        "rubric": 16.1,
+        "total": 36.1,
+        "eligible": false
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 36.1,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 36.1,
+        "activeMonths": 0,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 36.1,
+      "tier": "none"
+    },
+    {
+      "user": "nivedhika2007",
+      "name": "Nivedhika Thottiyil",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 1,
       "portfolio": {
         "fork": 5,
         "commits": 5,
