@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T18:11:16.511Z",
+  "updated": "2026-11-03T22:49:55.267Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -139,6 +139,157 @@
       "tier": "core"
     },
     {
+      "user": "aryarnair16",
+      "name": "Arya R Nair",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 17.6,
+        "total": 47.6,
+        "eligible": true
+      },
+      "projects": {
+        "total": 180,
+        "merged": 7,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 19,
+            "title": "fix(ui): improve light mode text contrast",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/19",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-01",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 21,
+            "title": "fix/ mode-toggle reset issue",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/21",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 10,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 26,
+            "title": "fix/insepct-another fixed to move to next example website",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/26",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 5,
+            "capped": false,
+            "points": 20,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 27,
+            "title": "feat: implement ghost typing simulation and difficulty selection",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/27",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 29,
+            "title": "ghost mode - phase 2 implemented",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/29",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 24,
+            "title": "feat/add-troubleshooting-guide",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/24",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 28,
+            "title": "fix/http-default-port",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/28",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 10,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 180,
+          "prs": 7,
+          "mediumPlus": 2,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 47.6,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 227.6,
+        "activeMonths": 2,
+        "repos": 3,
+        "eligible": true
+      },
+      "total": 227.6,
+      "tier": "core"
+    },
+    {
       "user": "anfaalresearch",
       "name": "MUHAMMED ANFAAL M M",
       "college": "TKMCE",
@@ -157,7 +308,7 @@
       "projects": {
         "total": 160,
         "merged": 4,
-        "pending": 0,
+        "pending": 1,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -242,127 +393,6 @@
         "eligible": true
       },
       "total": 208.5,
-      "tier": "core"
-    },
-    {
-      "user": "aryarnair16",
-      "name": "Arya R Nair",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": 17.6,
-        "total": 47.6,
-        "eligible": true
-      },
-      "projects": {
-        "total": 155,
-        "merged": 5,
-        "pending": 1,
-        "prs": [
-          {
-            "repo": "BrokenKey",
-            "number": 19,
-            "title": "fix(ui): improve light mode text contrast",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/19",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-01",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "BrokenKey",
-            "number": 21,
-            "title": "fix/ mode-toggle reset issue",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/21",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 0,
-            "quality": 0,
-            "capped": false,
-            "points": 10,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 26,
-            "title": "fix/insepct-another fixed to move to next example website",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/26",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 5,
-            "capped": false,
-            "points": 20,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "BrokenKey",
-            "number": 27,
-            "title": "feat: implement ghost typing simulation and difficulty selection",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/27",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 5,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          },
-          {
-            "repo": "BrokenKey",
-            "number": 29,
-            "title": "ghost mode - phase 2 implemented",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/29",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 5,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 155,
-          "prs": 5,
-          "mediumPlus": 2,
-          "eligible": true
-        },
-        "2026-10": {
-          "points": 47.6,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 202.6,
-        "activeMonths": 2,
-        "repos": 2,
-        "eligible": true
-      },
-      "total": 202.6,
       "tier": "core"
     },
     {
@@ -845,7 +875,7 @@
       "projects": {
         "total": 0,
         "merged": 0,
-        "pending": 0,
+        "pending": 1,
         "prs": []
       },
       "months": {
