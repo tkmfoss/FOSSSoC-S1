@@ -500,6 +500,34 @@ export default function LeaderboardPage() {
               </div>
             </div>
 
+            {/* Portfolio breakdown if available */}
+            {selectedUser.portfolio && selectedUser.portfolio.total > 0 && (
+              <div style={{ marginBottom: '1.5rem' }}>
+                <div style={{ fontSize: '0.82rem', color: 'var(--color-text-muted)', marginBottom: '0.4rem', textTransform: 'uppercase' }}>
+                  Portfolio Week Breakdown ({selectedUser.portfolio.total} pts)
+                </div>
+                <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap', fontSize: '0.72rem' }}>
+                  <span style={{ padding: '0.15rem 0.45rem', border: '1px solid var(--theme-border)', borderRadius: 'var(--radius-sm)', color: selectedUser.portfolio.fork > 0 ? 'var(--color-success)' : 'var(--color-text-subtle)' }}>
+                    Fork: +{selectedUser.portfolio.fork}
+                  </span>
+                  <span style={{ padding: '0.15rem 0.45rem', border: '1px solid var(--theme-border)', borderRadius: 'var(--radius-sm)', color: selectedUser.portfolio.commits > 0 ? 'var(--color-success)' : 'var(--color-text-subtle)' }}>
+                    Commits (3+): +{selectedUser.portfolio.commits}
+                  </span>
+                  <span style={{ padding: '0.15rem 0.45rem', border: '1px solid var(--theme-border)', borderRadius: 'var(--radius-sm)', color: selectedUser.portfolio.live > 0 ? 'var(--color-success)' : 'var(--color-text-subtle)' }}>
+                    Live Site: +{selectedUser.portfolio.live}
+                  </span>
+                  <span style={{ padding: '0.15rem 0.45rem', border: '1px solid var(--theme-border)', borderRadius: 'var(--radius-sm)', color: selectedUser.portfolio.showcase > 0 ? 'var(--color-success)' : 'var(--color-text-subtle)' }}>
+                    Showcase PR: +{selectedUser.portfolio.showcase}
+                  </span>
+                  {selectedUser.portfolio.rubric !== null && (
+                    <span style={{ padding: '0.15rem 0.45rem', border: '1px solid rgba(255, 209, 102, 0.35)', borderRadius: 'var(--radius-sm)', color: '#FFD166', background: 'rgba(255, 209, 102, 0.08)' }}>
+                      Rubric Avg: +{selectedUser.portfolio.rubric}/20
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+
             {/* PR breakdown */}
             <div>
               <div style={{ fontSize: '0.82rem', color: 'var(--color-text-muted)', marginBottom: '0.6rem', textTransform: 'uppercase' }}>
@@ -508,27 +536,126 @@ export default function LeaderboardPage() {
               {(!selectedUser.projects?.prs || selectedUser.projects.prs.length === 0) ? (
                 <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>No pull requests scored yet.</div>
               ) : (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
                   {selectedUser.projects.prs.map((pr, idx) => (
                     <div
                       key={idx}
                       style={{
-                        padding: '0.7rem',
+                        padding: '0.8rem 0.9rem',
                         border: '1px solid var(--theme-border)',
                         borderRadius: 'var(--radius-sm)',
-                        fontSize: '0.8rem'
+                        background: 'rgba(255, 255, 255, 0.02)',
+                        fontSize: '0.8rem',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '0.4rem'
                       }}
                     >
-                      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        <a href={pr.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-white)', fontWeight: 600 }}>
-                          {pr.repo} #{pr.number}
-                        </a>
-                        <span style={{ color: pr.capped ? 'var(--color-warning)' : 'var(--theme-primary)' }}>
-                          {pr.capped ? 'capped, 0 pts' : `+${pr.points} pts`}
+                      {/* Top: Repo #Number and Total Points */}
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '0.5rem' }}>
+                        <div>
+                          <a
+                            href={pr.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: 'var(--color-white)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.35rem', textDecoration: 'none' }}
+                          >
+                            <span>{pr.repo} #{pr.number}</span>
+                            <ExternalLink size={12} color="var(--color-text-muted)" />
+                          </a>
+                          {pr.title && (
+                            <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)', marginTop: '0.15rem', lineHeight: 1.3 }}>
+                              {pr.title}
+                            </div>
+                          )}
+                        </div>
+                        <span
+                          style={{
+                            fontWeight: 700,
+                            fontSize: '0.9rem',
+                            flexShrink: 0,
+                            color: pr.capped ? 'var(--color-warning)' : 'var(--theme-primary)'
+                          }}
+                        >
+                          {pr.capped ? '0 pts (Capped)' : `+${pr.points} pts`}
                         </span>
                       </div>
-                      <div style={{ color: 'var(--color-text-muted)', fontSize: '0.75rem', marginTop: '0.2rem' }}>
-                        Level: {pr.level} | Opened: {pr.opened} | Merged: {pr.merged}
+
+                      {/* Middle: Point Breakdown Badges */}
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap', marginTop: '0.15rem' }}>
+                        {/* Base level */}
+                        <span
+                          style={{
+                            fontSize: '0.72rem',
+                            padding: '0.15rem 0.45rem',
+                            borderRadius: 'var(--radius-sm)',
+                            background: pr.level === 'hard' ? 'rgba(239, 71, 111, 0.15)' : pr.level === 'medium' ? 'rgba(17, 138, 178, 0.18)' : 'rgba(6, 214, 160, 0.15)',
+                            color: pr.level === 'hard' ? '#EF476F' : pr.level === 'medium' ? '#118AB2' : 'var(--color-success)',
+                            border: `1px solid ${pr.level === 'hard' ? 'rgba(239, 71, 111, 0.35)' : pr.level === 'medium' ? 'rgba(17, 138, 178, 0.35)' : 'rgba(6, 214, 160, 0.35)'}`,
+                            fontWeight: 600,
+                            textTransform: 'capitalize'
+                          }}
+                        >
+                          Level: {pr.level} (+{pr.base || 0} pts)
+                        </span>
+
+                        {/* Early / Week 1 bonus */}
+                        {pr.firstWeek > 0 && (
+                          <span
+                            style={{
+                              fontSize: '0.72rem',
+                              padding: '0.15rem 0.45rem',
+                              borderRadius: 'var(--radius-sm)',
+                              background: 'rgba(0, 245, 212, 0.12)',
+                              color: 'var(--theme-primary)',
+                              border: '1px solid rgba(0, 245, 212, 0.35)',
+                              fontWeight: 600
+                            }}
+                          >
+                            ⚡ Early Bonus (+{pr.firstWeek} pts)
+                          </span>
+                        )}
+
+                        {/* Quality: excellent bonus */}
+                        {pr.quality > 0 && (
+                          <span
+                            style={{
+                              fontSize: '0.72rem',
+                              padding: '0.15rem 0.45rem',
+                              borderRadius: 'var(--radius-sm)',
+                              background: 'rgba(255, 209, 102, 0.15)',
+                              color: '#FFD166',
+                              border: '1px solid rgba(255, 209, 102, 0.35)',
+                              fontWeight: 600
+                            }}
+                          >
+                            ★ Quality: Excellent (+{pr.quality} pts)
+                          </span>
+                        )}
+
+                        {/* Capped warning */}
+                        {pr.capped && (
+                          <span
+                            style={{
+                              fontSize: '0.72rem',
+                              padding: '0.15rem 0.45rem',
+                              borderRadius: 'var(--radius-sm)',
+                              background: 'rgba(255, 183, 3, 0.12)',
+                              color: 'var(--color-warning)',
+                              border: '1px solid rgba(255, 183, 3, 0.35)',
+                              fontWeight: 600
+                            }}
+                          >
+                            ⚠️ Capped (max 5 PRs per repo)
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Bottom: Timestamps */}
+                      <div style={{ color: 'var(--color-text-subtle)', fontSize: '0.72rem', display: 'flex', gap: '0.7rem', marginTop: '0.1rem' }}>
+                        <span>Opened: {pr.opened}</span>
+                        <span>•</span>
+                        <span>Merged: {pr.merged}</span>
                       </div>
                     </div>
                   ))}
