@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T15:56:33.460Z",
+  "updated": "2026-11-04T23:08:08.601Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -34,8 +34,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 280,
-        "merged": 10,
+        "total": 300,
+        "merged": 12,
         "pending": 0,
         "prs": [
           {
@@ -160,6 +160,36 @@
           },
           {
             "repo": "Cyber-Security-Simulator",
+            "number": 42,
+            "title": "fix(ui): show copied feedback on password copy button",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/42",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 10,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 44,
+            "title": "feat(ui): add Dashboard quiz history empty state",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/44",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 10,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
             "number": 46,
             "title": "fix: improve public suffix and registrable domain detection",
             "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/46",
@@ -192,8 +222,8 @@
       },
       "months": {
         "2026-11": {
-          "points": 280,
-          "prs": 10,
+          "points": 300,
+          "prs": 12,
           "mediumPlus": 5,
           "eligible": true
         },
@@ -205,12 +235,12 @@
         }
       },
       "overall": {
-        "points": 327.6,
+        "points": 347.6,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 327.6,
+      "total": 347.6,
       "tier": "core"
     },
     {
