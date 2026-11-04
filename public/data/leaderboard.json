@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T08:06:30.006Z",
+  "updated": "2026-11-04T15:56:33.460Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -17,6 +17,202 @@
     }
   },
   "users": [
+    {
+      "user": "aryarnair16",
+      "name": "Arya R Nair",
+      "college": "TKMCE",
+      "department": "CSE",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 17.6,
+        "total": 47.6,
+        "eligible": true
+      },
+      "projects": {
+        "total": 280,
+        "merged": 10,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 19,
+            "title": "fix(ui): improve light mode text contrast",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/19",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-01",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 21,
+            "title": "fix/ mode-toggle reset issue",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/21",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 10,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 26,
+            "title": "fix/insepct-another fixed to move to next example website",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/26",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 5,
+            "capped": false,
+            "points": 20,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 27,
+            "title": "feat: implement ghost typing simulation and difficulty selection",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/27",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 29,
+            "title": "ghost mode - phase 2 implemented",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/29",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 24,
+            "title": "feat/add-troubleshooting-guide",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/24",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 28,
+            "title": "fix/http-default-port",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/28",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 10,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 30,
+            "title": "fix: batch failure isolation",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/30",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 25,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 46,
+            "title": "fix: improve public suffix and registrable domain detection",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/46",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 25,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 32,
+            "title": "feat(scanner): implement configurable bounded concurrency for large URL batches",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/32",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 280,
+          "prs": 10,
+          "mediumPlus": 5,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 47.6,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 327.6,
+        "activeMonths": 2,
+        "repos": 3,
+        "eligible": true
+      },
+      "total": 327.6,
+      "tier": "core"
+    },
     {
       "user": "cosmiccoder200x-sys",
       "name": "sreerang",
@@ -154,172 +350,6 @@
       "tier": "core"
     },
     {
-      "user": "aryarnair16",
-      "name": "Arya R Nair",
-      "college": "TKMCE",
-      "department": "CSE",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": 17.6,
-        "total": 47.6,
-        "eligible": true
-      },
-      "projects": {
-        "total": 205,
-        "merged": 8,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "BrokenKey",
-            "number": 19,
-            "title": "fix(ui): improve light mode text contrast",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/19",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-01",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "BrokenKey",
-            "number": 21,
-            "title": "fix/ mode-toggle reset issue",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/21",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 0,
-            "quality": 0,
-            "capped": false,
-            "points": 10,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 26,
-            "title": "fix/insepct-another fixed to move to next example website",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/26",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 5,
-            "capped": false,
-            "points": 20,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "BrokenKey",
-            "number": 27,
-            "title": "feat: implement ghost typing simulation and difficulty selection",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/27",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 5,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          },
-          {
-            "repo": "BrokenKey",
-            "number": 29,
-            "title": "ghost mode - phase 2 implemented",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/29",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 5,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          },
-          {
-            "repo": "pingpanda",
-            "number": 24,
-            "title": "feat/add-troubleshooting-guide",
-            "url": "https://github.com/tkmfoss/pingpanda/pull/24",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          },
-          {
-            "repo": "pingpanda",
-            "number": 28,
-            "title": "fix/http-default-port",
-            "url": "https://github.com/tkmfoss/pingpanda/pull/28",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 0,
-            "quality": 0,
-            "capped": false,
-            "points": 10,
-            "opened": "2026-11-04",
-            "merged": "2026-11-04",
-            "month": "2026-11"
-          },
-          {
-            "repo": "pingpanda",
-            "number": 30,
-            "title": "fix: batch failure isolation",
-            "url": "https://github.com/tkmfoss/pingpanda/pull/30",
-            "level": "medium",
-            "base": 25,
-            "firstWeek": 0,
-            "quality": 0,
-            "capped": false,
-            "points": 25,
-            "opened": "2026-11-04",
-            "merged": "2026-11-04",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 205,
-          "prs": 8,
-          "mediumPlus": 3,
-          "eligible": true
-        },
-        "2026-10": {
-          "points": 47.6,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 252.6,
-        "activeMonths": 2,
-        "repos": 3,
-        "eligible": true
-      },
-      "total": 252.6,
-      "tier": "core"
-    },
-    {
       "user": "anfaalresearch",
       "name": "MUHAMMED ANFAAL M M",
       "college": "TKMCE",
@@ -426,6 +456,143 @@
       "tier": "core"
     },
     {
+      "user": "mohamedfahadlal",
+      "name": "Mohamed Fahad Lal",
+      "college": "TKMCE",
+      "department": "CS (AI)",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 17.2,
+        "total": 47.2,
+        "eligible": true
+      },
+      "projects": {
+        "total": 65,
+        "merged": 2,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "pingpanda",
+            "number": 19,
+            "title": "fix: #3 changed default URLs scheme from HTTP to HTTPS",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/19",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 25,
+            "title": "fix: Enforce end-to-end timeout for URL checks",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/25",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-03",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 65,
+          "prs": 2,
+          "mediumPlus": 1,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 47.2,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 112.2,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 112.2,
+      "tier": "contributor"
+    },
+    {
+      "user": "jobmj",
+      "name": "Jobin M John",
+      "college": "TKMCE",
+      "department": "CSE AI",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 19.2,
+        "total": 49.2,
+        "eligible": true
+      },
+      "projects": {
+        "total": 55,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 40,
+            "title": "feat(replay): implement interactive keystroke session replay theater and timeline scrubber",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/40",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 55,
+          "prs": 1,
+          "mediumPlus": 1,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 49.2,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 104.2,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 104.2,
+      "tier": "contributor"
+    },
+    {
       "user": "shivanisreejith1",
       "name": "Shivani s",
       "college": "TKMCE",
@@ -484,67 +651,6 @@
         "eligible": false
       },
       "total": 63.4,
-      "tier": "contributor"
-    },
-    {
-      "user": "mohamedfahadlal",
-      "name": "Mohamed Fahad Lal",
-      "college": "TKMCE",
-      "department": "CS (AI)",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": 17.2,
-        "total": 47.2,
-        "eligible": true
-      },
-      "projects": {
-        "total": 15,
-        "merged": 1,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "pingpanda",
-            "number": 19,
-            "title": "fix: #3 changed default URLs scheme from HTTP to HTTPS",
-            "url": "https://github.com/tkmfoss/pingpanda/pull/19",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 15,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": false
-        },
-        "2026-10": {
-          "points": 47.2,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 62.2,
-        "activeMonths": 2,
-        "repos": 1,
-        "eligible": false
-      },
-      "total": 62.2,
       "tier": "contributor"
     },
     {
@@ -729,45 +835,6 @@
       },
       "total": 60.2,
       "tier": "contributor"
-    },
-    {
-      "user": "jobmj",
-      "name": "Jobin M John",
-      "college": "TKMCE",
-      "department": "CSE AI",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": 19.2,
-        "total": 49.2,
-        "eligible": true
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 49.2,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 49.2,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 49.2,
-      "tier": "participant"
     },
     {
       "user": "shifanatk",
