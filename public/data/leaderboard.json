@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T22:49:55.267Z",
+  "updated": "2026-11-04T08:06:30.006Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -34,8 +34,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 200,
-        "merged": 5,
+        "total": 260,
+        "merged": 6,
         "pending": 0,
         "prs": [
           {
@@ -112,14 +112,29 @@
             "opened": "2026-11-03",
             "merged": "2026-11-03",
             "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 27,
+            "title": "feat(scanner): implement resumable URL scanning with checkpoint recovery",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/27",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 5,
+            "quality": 5,
+            "capped": false,
+            "points": 60,
+            "opened": "2026-11-03",
+            "merged": "2026-11-04",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 200,
-          "prs": 5,
-          "mediumPlus": 4,
+          "points": 260,
+          "prs": 6,
+          "mediumPlus": 5,
           "eligible": true
         },
         "2026-10": {
@@ -130,12 +145,12 @@
         }
       },
       "overall": {
-        "points": 249,
+        "points": 309,
         "activeMonths": 2,
-        "repos": 1,
-        "eligible": false
+        "repos": 2,
+        "eligible": true
       },
-      "total": 249,
+      "total": 309,
       "tier": "core"
     },
     {
@@ -155,8 +170,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 180,
-        "merged": 7,
+        "total": 205,
+        "merged": 8,
         "pending": 0,
         "prs": [
           {
@@ -263,14 +278,29 @@
             "opened": "2026-11-04",
             "merged": "2026-11-04",
             "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 30,
+            "title": "fix: batch failure isolation",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/30",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 25,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 180,
-          "prs": 7,
-          "mediumPlus": 2,
+          "points": 205,
+          "prs": 8,
+          "mediumPlus": 3,
           "eligible": true
         },
         "2026-10": {
@@ -281,12 +311,12 @@
         }
       },
       "overall": {
-        "points": 227.6,
+        "points": 252.6,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 227.6,
+      "total": 252.6,
       "tier": "core"
     },
     {
