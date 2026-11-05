@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T23:08:08.601Z",
+  "updated": "2026-11-05T15:56:14.813Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -34,8 +34,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 300,
-        "merged": 12,
+        "total": 350,
+        "merged": 13,
         "pending": 0,
         "prs": [
           {
@@ -217,14 +217,29 @@
             "opened": "2026-11-04",
             "merged": "2026-11-04",
             "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 34,
+            "title": "feat(network): add asynchronous dual-stack DNS resolution",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/34",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-04",
+            "merged": "2026-11-05",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 300,
-          "prs": 12,
-          "mediumPlus": 5,
+          "points": 350,
+          "prs": 13,
+          "mediumPlus": 6,
           "eligible": true
         },
         "2026-10": {
@@ -235,12 +250,12 @@
         }
       },
       "overall": {
-        "points": 347.6,
+        "points": 397.6,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 347.6,
+      "total": 397.6,
       "tier": "core"
     },
     {
@@ -262,7 +277,7 @@
       "projects": {
         "total": 260,
         "merged": 6,
-        "pending": 0,
+        "pending": 1,
         "prs": [
           {
             "repo": "Cyber-Security-Simulator",
@@ -396,8 +411,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 160,
-        "merged": 4,
+        "total": 210,
+        "merged": 5,
         "pending": 1,
         "prs": [
           {
@@ -459,14 +474,29 @@
             "opened": "2026-11-03",
             "merged": "2026-11-03",
             "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 33,
+            "title": "feat(analytics): implement real-time per-key error heatmap, mistake telemetry and real wpm calculation",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/33",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-03",
+            "merged": "2026-11-05",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 160,
-          "prs": 4,
-          "mediumPlus": 3,
+          "points": 210,
+          "prs": 5,
+          "mediumPlus": 4,
           "eligible": true
         },
         "2026-10": {
@@ -477,12 +507,88 @@
         }
       },
       "overall": {
-        "points": 208.5,
+        "points": 258.5,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 208.5,
+      "total": 258.5,
+      "tier": "core"
+    },
+    {
+      "user": "jobmj",
+      "name": "Jobin M John",
+      "college": "TKMCE",
+      "department": "CSE AI",
+      "year": 3,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 19.2,
+        "total": 49.2,
+        "eligible": true
+      },
+      "projects": {
+        "total": 105,
+        "merged": 2,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 40,
+            "title": "feat(replay): implement interactive keystroke session replay theater and timeline scrubber",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/40",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-04",
+            "merged": "2026-11-04",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 46,
+            "title": "feat(audio-passages): multi-source custom passage studio and procedural mechanical audio feedback engine",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/46",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-05",
+            "merged": "2026-11-05",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 105,
+          "prs": 2,
+          "mediumPlus": 2,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 49.2,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 154.2,
+        "activeMonths": 2,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 154.2,
       "tier": "core"
     },
     {
@@ -502,8 +608,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 65,
-        "merged": 2,
+        "total": 95,
+        "merged": 3,
         "pending": 0,
         "prs": [
           {
@@ -535,14 +641,29 @@
             "opened": "2026-11-03",
             "merged": "2026-11-04",
             "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 48,
+            "title": "feat: Add cybersecurity news page",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/48",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 30,
+            "opened": "2026-11-04",
+            "merged": "2026-11-05",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 65,
-          "prs": 2,
-          "mediumPlus": 1,
+          "points": 95,
+          "prs": 3,
+          "mediumPlus": 2,
           "eligible": true
         },
         "2026-10": {
@@ -553,73 +674,12 @@
         }
       },
       "overall": {
-        "points": 112.2,
+        "points": 142.2,
         "activeMonths": 2,
-        "repos": 1,
-        "eligible": false
-      },
-      "total": 112.2,
-      "tier": "contributor"
-    },
-    {
-      "user": "jobmj",
-      "name": "Jobin M John",
-      "college": "TKMCE",
-      "department": "CSE AI",
-      "year": 3,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": 19.2,
-        "total": 49.2,
+        "repos": 2,
         "eligible": true
       },
-      "projects": {
-        "total": 55,
-        "merged": 1,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "BrokenKey",
-            "number": 40,
-            "title": "feat(replay): implement interactive keystroke session replay theater and timeline scrubber",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/40",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-04",
-            "merged": "2026-11-04",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 55,
-          "prs": 1,
-          "mediumPlus": 1,
-          "eligible": false
-        },
-        "2026-10": {
-          "points": 49.2,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 104.2,
-        "activeMonths": 2,
-        "repos": 1,
-        "eligible": false
-      },
-      "total": 104.2,
+      "total": 142.2,
       "tier": "contributor"
     },
     {
@@ -639,8 +699,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 15,
-        "merged": 1,
+        "total": 45,
+        "merged": 2,
         "pending": 0,
         "prs": [
           {
@@ -657,6 +717,82 @@
             "opened": "2026-11-02",
             "merged": "2026-11-02",
             "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 49,
+            "title": "feat: add multi-step attack simulation scenarios",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/49",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 30,
+            "opened": "2026-11-05",
+            "merged": "2026-11-05",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 45,
+          "prs": 2,
+          "mediumPlus": 1,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 48.4,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 93.4,
+        "activeMonths": 2,
+        "repos": 2,
+        "eligible": false
+      },
+      "total": 93.4,
+      "tier": "contributor"
+    },
+    {
+      "user": "akheen1234",
+      "name": "Akheen Rajendran",
+      "college": "TKMCE",
+      "department": "Computer Science",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 18.1,
+        "total": 48.1,
+        "eligible": true
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 50,
+            "title": "fix(detector): hide checklist pass/fail until verdict is submitted",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/50",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-05",
+            "merged": "2026-11-05",
+            "month": "2026-11"
           }
         ]
       },
@@ -668,19 +804,19 @@
           "eligible": false
         },
         "2026-10": {
-          "points": 48.4,
+          "points": 48.1,
           "prs": 1,
           "mediumPlus": 0,
           "eligible": true
         }
       },
       "overall": {
-        "points": 63.4,
+        "points": 63.1,
         "activeMonths": 2,
         "repos": 1,
         "eligible": false
       },
-      "total": 63.4,
+      "total": 63.1,
       "tier": "contributor"
     },
     {
@@ -903,45 +1039,6 @@
         "eligible": false
       },
       "total": 48.2,
-      "tier": "participant"
-    },
-    {
-      "user": "akheen1234",
-      "name": "Akheen Rajendran",
-      "college": "TKMCE",
-      "department": "Computer Science",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": 18.1,
-        "total": 48.1,
-        "eligible": true
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 48.1,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 48.1,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 48.1,
       "tier": "participant"
     },
     {
