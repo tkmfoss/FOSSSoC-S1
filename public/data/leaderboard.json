@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T19:37:22.657Z",
+  "updated": "2026-11-05T20:06:52.335Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -426,9 +426,9 @@
         "eligible": true
       },
       "projects": {
-        "total": 210,
-        "merged": 5,
-        "pending": 1,
+        "total": 260,
+        "merged": 6,
+        "pending": 0,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -504,14 +504,29 @@
             "opened": "2026-11-03",
             "merged": "2026-11-05",
             "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 52,
+            "title": "feat(network): build interactive firewall & acl packet inspection simulator",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/52",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-05",
+            "merged": "2026-11-06",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 210,
-          "prs": 5,
-          "mediumPlus": 4,
+          "points": 260,
+          "prs": 6,
+          "mediumPlus": 5,
           "eligible": true
         },
         "2026-10": {
@@ -522,12 +537,12 @@
         }
       },
       "overall": {
-        "points": 258.5,
+        "points": 308.5,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 258.5,
+      "total": 308.5,
       "tier": "core"
     },
     {
@@ -1835,6 +1850,67 @@
       },
       "total": 20,
       "tier": "none"
+    },
+    {
+      "user": "sneha20-sajit",
+      "name": "sneha20-sajit",
+      "college": "",
+      "department": "",
+      "year": null,
+      "portfolio": {
+        "fork": 0,
+        "commits": 0,
+        "live": 0,
+        "showcase": 0,
+        "auto": 0,
+        "rubric": null,
+        "total": 0,
+        "eligible": false
+      },
+      "projects": {
+        "total": 15,
+        "merged": 1,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 54,
+            "title": "fix stale results when switching website examples",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/54",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-05",
+            "merged": "2026-11-06",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 15,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": false
+        },
+        "2026-10": {
+          "points": 0,
+          "prs": 0,
+          "mediumPlus": 0,
+          "eligible": false
+        }
+      },
+      "overall": {
+        "points": 15,
+        "activeMonths": 1,
+        "repos": 1,
+        "eligible": false
+      },
+      "total": 15,
+      "tier": "participant"
     },
     {
       "user": "AdiTh-BK",
