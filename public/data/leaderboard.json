@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T15:56:14.813Z",
+  "updated": "2026-11-05T19:37:22.657Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -34,8 +34,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 350,
-        "merged": 13,
+        "total": 405,
+        "merged": 14,
         "pending": 0,
         "prs": [
           {
@@ -232,14 +232,29 @@
             "opened": "2026-11-04",
             "merged": "2026-11-05",
             "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 53,
+            "title": "feat: add incident timeline and evidence correlation lab",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/53",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-05",
+            "merged": "2026-11-06",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 350,
-          "prs": 13,
-          "mediumPlus": 6,
+          "points": 405,
+          "prs": 14,
+          "mediumPlus": 7,
           "eligible": true
         },
         "2026-10": {
@@ -250,12 +265,12 @@
         }
       },
       "overall": {
-        "points": 397.6,
+        "points": 452.6,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 397.6,
+      "total": 452.6,
       "tier": "core"
     },
     {
