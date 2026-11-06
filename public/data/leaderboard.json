@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T20:06:52.335Z",
+  "updated": "2026-11-06T11:13:48.768Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -564,7 +564,7 @@
       "projects": {
         "total": 105,
         "merged": 2,
-        "pending": 0,
+        "pending": 1,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -805,8 +805,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 15,
-        "merged": 1,
+        "total": 30,
+        "merged": 2,
         "pending": 0,
         "prs": [
           {
@@ -823,13 +823,28 @@
             "opened": "2026-11-05",
             "merged": "2026-11-05",
             "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 48,
+            "title": "feat(typing): auto-start test on first keystroke",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/48",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-06",
+            "merged": "2026-11-06",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 15,
-          "prs": 1,
+          "points": 30,
+          "prs": 2,
           "mediumPlus": 0,
           "eligible": false
         },
@@ -841,12 +856,12 @@
         }
       },
       "overall": {
-        "points": 63.1,
+        "points": 78.1,
         "activeMonths": 2,
-        "repos": 1,
+        "repos": 2,
         "eligible": false
       },
-      "total": 63.1,
+      "total": 78.1,
       "tier": "contributor"
     },
     {
