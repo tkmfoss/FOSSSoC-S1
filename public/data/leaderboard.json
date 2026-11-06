@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T11:13:48.768Z",
+  "updated": "2026-11-06T15:37:14.778Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -290,9 +290,9 @@
         "eligible": true
       },
       "projects": {
-        "total": 260,
-        "merged": 6,
-        "pending": 1,
+        "total": 290,
+        "merged": 7,
+        "pending": 0,
         "prs": [
           {
             "repo": "Cyber-Security-Simulator",
@@ -383,14 +383,29 @@
             "opened": "2026-11-03",
             "merged": "2026-11-04",
             "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 45,
+            "title": "feat(ui): implement Phase 1 Neo Minimal redesign",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/45",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 30,
+            "opened": "2026-11-04",
+            "merged": "2026-11-06",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 260,
-          "prs": 6,
-          "mediumPlus": 5,
+          "points": 290,
+          "prs": 7,
+          "mediumPlus": 6,
           "eligible": true
         },
         "2026-10": {
@@ -401,12 +416,12 @@
         }
       },
       "overall": {
-        "points": 309,
+        "points": 339,
         "activeMonths": 2,
-        "repos": 2,
+        "repos": 3,
         "eligible": true
       },
-      "total": 309,
+      "total": 339,
       "tier": "core"
     },
     {
@@ -562,9 +577,9 @@
         "eligible": true
       },
       "projects": {
-        "total": 105,
-        "merged": 2,
-        "pending": 1,
+        "total": 135,
+        "merged": 3,
+        "pending": 0,
         "prs": [
           {
             "repo": "BrokenKey",
@@ -589,20 +604,35 @@
             "level": "hard",
             "base": 50,
             "firstWeek": 0,
-            "quality": 0,
+            "quality": 5,
             "capped": false,
-            "points": 50,
+            "points": 55,
             "opened": "2026-11-05",
             "merged": "2026-11-05",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 47,
+            "title": "Feat/issue 41 free run mode",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/47",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 25,
+            "opened": "2026-11-05",
+            "merged": "2026-11-06",
             "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 105,
-          "prs": 2,
-          "mediumPlus": 2,
+          "points": 135,
+          "prs": 3,
+          "mediumPlus": 3,
           "eligible": true
         },
         "2026-10": {
@@ -613,12 +643,12 @@
         }
       },
       "overall": {
-        "points": 154.2,
+        "points": 184.2,
         "activeMonths": 2,
         "repos": 1,
         "eligible": false
       },
-      "total": 154.2,
+      "total": 184.2,
       "tier": "core"
     },
     {
@@ -805,7 +835,7 @@
         "eligible": true
       },
       "projects": {
-        "total": 30,
+        "total": 45,
         "merged": 2,
         "pending": 0,
         "prs": [
@@ -829,12 +859,12 @@
             "number": 48,
             "title": "feat(typing): auto-start test on first keystroke",
             "url": "https://github.com/tkmfoss/BrokenKey/pull/48",
-            "level": "easy",
-            "base": 10,
+            "level": "medium",
+            "base": 25,
             "firstWeek": 5,
             "quality": 0,
             "capped": false,
-            "points": 15,
+            "points": 30,
             "opened": "2026-11-06",
             "merged": "2026-11-06",
             "month": "2026-11"
@@ -843,9 +873,9 @@
       },
       "months": {
         "2026-11": {
-          "points": 30,
+          "points": 45,
           "prs": 2,
-          "mediumPlus": 0,
+          "mediumPlus": 1,
           "eligible": false
         },
         "2026-10": {
@@ -856,12 +886,12 @@
         }
       },
       "overall": {
-        "points": 78.1,
+        "points": 93.1,
         "activeMonths": 2,
         "repos": 2,
         "eligible": false
       },
-      "total": 78.1,
+      "total": 93.1,
       "tier": "contributor"
     },
     {
