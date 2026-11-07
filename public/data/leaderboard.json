@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T15:37:14.778Z",
+  "updated": "2026-11-07T14:37:55.007Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -274,6 +274,157 @@
       "tier": "core"
     },
     {
+      "user": "anfaalresearch",
+      "name": "MUHAMMED ANFAAL M M",
+      "college": "TKMCE",
+      "department": "CS-AI",
+      "year": 1,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 18.5,
+        "total": 48.5,
+        "eligible": true
+      },
+      "projects": {
+        "total": 310,
+        "merged": 7,
+        "pending": 0,
+        "prs": [
+          {
+            "repo": "BrokenKey",
+            "number": 18,
+            "title": "fix(logic): calculate typing accuracy dynamically from input mistakes",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/18",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-01",
+            "merged": "2026-11-01",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 25,
+            "title": "fix(dashboard): derive performance trend chart from real quiz history with empty state",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/25",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 5,
+            "quality": 5,
+            "capped": false,
+            "points": 35,
+            "opened": "2026-11-02",
+            "merged": "2026-11-02",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 34,
+            "title": "feat: add cyber defense xp and rank progression engine across modules",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/34",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-02",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 21,
+            "title": "fix(network): remove shared global LAST_FINAL_URL and resolve destination redirect IP",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/21",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 55,
+            "opened": "2026-11-03",
+            "merged": "2026-11-03",
+            "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 33,
+            "title": "feat(analytics): implement real-time per-key error heatmap, mistake telemetry and real wpm calculation",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/33",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-03",
+            "merged": "2026-11-05",
+            "month": "2026-11"
+          },
+          {
+            "repo": "Cyber-Security-Simulator",
+            "number": 52,
+            "title": "feat(network): build interactive firewall & acl packet inspection simulator",
+            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/52",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-05",
+            "merged": "2026-11-06",
+            "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 38,
+            "title": "feat(reporting): implement multi-format export (JSON, CSV, Markdown) with latency percentiles and failure diagnostics",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/38",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-06",
+            "merged": "2026-11-07",
+            "month": "2026-11"
+          }
+        ]
+      },
+      "months": {
+        "2026-11": {
+          "points": 310,
+          "prs": 7,
+          "mediumPlus": 6,
+          "eligible": true
+        },
+        "2026-10": {
+          "points": 48.5,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 358.5,
+        "activeMonths": 2,
+        "repos": 3,
+        "eligible": true
+      },
+      "total": 358.5,
+      "tier": "core"
+    },
+    {
       "user": "cosmiccoder200x-sys",
       "name": "sreerang",
       "college": "TKMCE",
@@ -422,142 +573,6 @@
         "eligible": true
       },
       "total": 339,
-      "tier": "core"
-    },
-    {
-      "user": "anfaalresearch",
-      "name": "MUHAMMED ANFAAL M M",
-      "college": "TKMCE",
-      "department": "CS-AI",
-      "year": 1,
-      "portfolio": {
-        "fork": 5,
-        "commits": 5,
-        "live": 10,
-        "showcase": 10,
-        "auto": 30,
-        "rubric": 18.5,
-        "total": 48.5,
-        "eligible": true
-      },
-      "projects": {
-        "total": 260,
-        "merged": 6,
-        "pending": 0,
-        "prs": [
-          {
-            "repo": "BrokenKey",
-            "number": 18,
-            "title": "fix(logic): calculate typing accuracy dynamically from input mistakes",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/18",
-            "level": "easy",
-            "base": 10,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 15,
-            "opened": "2026-11-01",
-            "merged": "2026-11-01",
-            "month": "2026-11"
-          },
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 25,
-            "title": "fix(dashboard): derive performance trend chart from real quiz history with empty state",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/25",
-            "level": "medium",
-            "base": 25,
-            "firstWeek": 5,
-            "quality": 5,
-            "capped": false,
-            "points": 35,
-            "opened": "2026-11-02",
-            "merged": "2026-11-02",
-            "month": "2026-11"
-          },
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 34,
-            "title": "feat: add cyber defense xp and rank progression engine across modules",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/34",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 5,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-02",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          },
-          {
-            "repo": "pingpanda",
-            "number": 21,
-            "title": "fix(network): remove shared global LAST_FINAL_URL and resolve destination redirect IP",
-            "url": "https://github.com/tkmfoss/pingpanda/pull/21",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 5,
-            "quality": 0,
-            "capped": false,
-            "points": 55,
-            "opened": "2026-11-03",
-            "merged": "2026-11-03",
-            "month": "2026-11"
-          },
-          {
-            "repo": "BrokenKey",
-            "number": 33,
-            "title": "feat(analytics): implement real-time per-key error heatmap, mistake telemetry and real wpm calculation",
-            "url": "https://github.com/tkmfoss/BrokenKey/pull/33",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 0,
-            "capped": false,
-            "points": 50,
-            "opened": "2026-11-03",
-            "merged": "2026-11-05",
-            "month": "2026-11"
-          },
-          {
-            "repo": "Cyber-Security-Simulator",
-            "number": 52,
-            "title": "feat(network): build interactive firewall & acl packet inspection simulator",
-            "url": "https://github.com/tkmfoss/Cyber-Security-Simulator/pull/52",
-            "level": "hard",
-            "base": 50,
-            "firstWeek": 0,
-            "quality": 0,
-            "capped": false,
-            "points": 50,
-            "opened": "2026-11-05",
-            "merged": "2026-11-06",
-            "month": "2026-11"
-          }
-        ]
-      },
-      "months": {
-        "2026-11": {
-          "points": 260,
-          "prs": 6,
-          "mediumPlus": 5,
-          "eligible": true
-        },
-        "2026-10": {
-          "points": 48.5,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 308.5,
-        "activeMonths": 2,
-        "repos": 3,
-        "eligible": true
-      },
-      "total": 308.5,
       "tier": "core"
     },
     {
@@ -1759,7 +1774,7 @@
       "projects": {
         "total": 0,
         "merged": 0,
-        "pending": 0,
+        "pending": 1,
         "prs": []
       },
       "months": {
