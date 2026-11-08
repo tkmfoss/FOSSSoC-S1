@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T14:37:55.007Z",
+  "updated": "2026-11-08T21:37:05.329Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -685,7 +685,7 @@
       "projects": {
         "total": 95,
         "merged": 3,
-        "pending": 0,
+        "pending": 1,
         "prs": [
           {
             "repo": "pingpanda",
