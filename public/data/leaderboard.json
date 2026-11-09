@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:37:05.329Z",
+  "updated": "2026-11-09T12:09:46.395Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -443,7 +443,7 @@
       "projects": {
         "total": 290,
         "merged": 7,
-        "pending": 0,
+        "pending": 1,
         "prs": [
           {
             "repo": "Cyber-Security-Simulator",
@@ -683,8 +683,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 95,
-        "merged": 3,
+        "total": 125,
+        "merged": 4,
         "pending": 1,
         "prs": [
           {
@@ -731,14 +731,29 @@
             "opened": "2026-11-04",
             "merged": "2026-11-05",
             "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 37,
+            "title": "feat/ Add retry option for url failures",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/37",
+            "level": "medium",
+            "base": 25,
+            "firstWeek": 0,
+            "quality": 5,
+            "capped": false,
+            "points": 30,
+            "opened": "2026-11-06",
+            "merged": "2026-11-06",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 95,
-          "prs": 3,
-          "mediumPlus": 2,
+          "points": 125,
+          "prs": 4,
+          "mediumPlus": 3,
           "eligible": true
         },
         "2026-10": {
@@ -749,13 +764,13 @@
         }
       },
       "overall": {
-        "points": 142.2,
+        "points": 172.2,
         "activeMonths": 2,
         "repos": 2,
         "eligible": true
       },
-      "total": 142.2,
-      "tier": "contributor"
+      "total": 172.2,
+      "tier": "core"
     },
     {
       "user": "shivanisreejith1",
