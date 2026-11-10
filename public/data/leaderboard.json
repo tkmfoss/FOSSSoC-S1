@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T16:02:27.020Z",
+  "updated": "2026-11-10T22:45:41.089Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -25,12 +25,12 @@
       "year": 2,
       "portfolio": {
         "fork": 5,
-        "commits": 0,
+        "commits": 5,
         "live": 10,
         "showcase": 10,
-        "auto": 25,
+        "auto": 30,
         "rubric": 17.6,
-        "total": 42.6,
+        "total": 47.6,
         "eligible": true
       },
       "projects": {
@@ -258,19 +258,19 @@
           "eligible": true
         },
         "2026-10": {
-          "points": 42.6,
+          "points": 47.6,
           "prs": 1,
           "mediumPlus": 0,
           "eligible": true
         }
       },
       "overall": {
-        "points": 447.6,
+        "points": 452.6,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 447.6,
+      "total": 452.6,
       "tier": "core"
     },
     {
@@ -1591,6 +1591,45 @@
       "tier": "participant"
     },
     {
+      "user": "adissheshen",
+      "name": "Adissheshen J Singh",
+      "college": "TKMCE",
+      "department": "Electrical and Computer Engineering",
+      "year": 2,
+      "portfolio": {
+        "fork": 5,
+        "commits": 5,
+        "live": 10,
+        "showcase": 10,
+        "auto": 30,
+        "rubric": 15,
+        "total": 45,
+        "eligible": true
+      },
+      "projects": {
+        "total": 0,
+        "merged": 0,
+        "pending": 0,
+        "prs": []
+      },
+      "months": {
+        "2026-10": {
+          "points": 45,
+          "prs": 1,
+          "mediumPlus": 0,
+          "eligible": true
+        }
+      },
+      "overall": {
+        "points": 45,
+        "activeMonths": 1,
+        "repos": 0,
+        "eligible": false
+      },
+      "total": 45,
+      "tier": "participant"
+    },
+    {
       "user": "sinandesktop",
       "name": "Muhammed Sinan S",
       "college": "TKMCE",
@@ -1783,45 +1822,6 @@
         "eligible": false
       },
       "total": 43.1,
-      "tier": "participant"
-    },
-    {
-      "user": "adissheshen",
-      "name": "Adissheshen J Singh",
-      "college": "TKMCE",
-      "department": "Electrical and Computer Engineering",
-      "year": 2,
-      "portfolio": {
-        "fork": 5,
-        "commits": 0,
-        "live": 10,
-        "showcase": 10,
-        "auto": 25,
-        "rubric": 15,
-        "total": 40,
-        "eligible": true
-      },
-      "projects": {
-        "total": 0,
-        "merged": 0,
-        "pending": 0,
-        "prs": []
-      },
-      "months": {
-        "2026-10": {
-          "points": 40,
-          "prs": 1,
-          "mediumPlus": 0,
-          "eligible": true
-        }
-      },
-      "overall": {
-        "points": 40,
-        "activeMonths": 1,
-        "repos": 0,
-        "eligible": false
-      },
-      "total": 40,
       "tier": "participant"
     },
     {
