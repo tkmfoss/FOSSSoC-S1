@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T22:45:41.089Z",
+  "updated": "2026-11-11T15:49:24.389Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -956,8 +956,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 15,
-        "merged": 1,
+        "total": 30,
+        "merged": 2,
         "pending": 0,
         "prs": [
           {
@@ -974,13 +974,28 @@
             "opened": "2026-11-03",
             "merged": "2026-11-03",
             "month": "2026-11"
+          },
+          {
+            "repo": "pingpanda",
+            "number": 39,
+            "title": "Add quiet and no-colour CLI options",
+            "url": "https://github.com/tkmfoss/pingpanda/pull/39",
+            "level": "easy",
+            "base": 10,
+            "firstWeek": 5,
+            "quality": 0,
+            "capped": false,
+            "points": 15,
+            "opened": "2026-11-07",
+            "merged": "2026-11-11",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 15,
-          "prs": 1,
+          "points": 30,
+          "prs": 2,
           "mediumPlus": 0,
           "eligible": false
         },
@@ -992,12 +1007,12 @@
         }
       },
       "overall": {
-        "points": 62.1,
+        "points": 77.1,
         "activeMonths": 2,
-        "repos": 1,
+        "repos": 2,
         "eligible": false
       },
-      "total": 62.1,
+      "total": 77.1,
       "tier": "contributor"
     },
     {
