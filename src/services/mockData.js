@@ -470,6 +470,7 @@ export function generateDemoLeaderboard() {
 
   return {
     updated: new Date().toISOString(),
+    lastChecked: new Date().toISOString(),
     thresholds: {
       october: { total: 35, rubric: 10 },
       month: { points: 50, prs: 2, mediumPlus: 1 },

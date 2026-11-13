@@ -209,15 +209,21 @@ async function portfolio(login, tpl, showPR, rubric, ov) {
         const tier = total >= 150 ? 'core' : total >= 50 ? 'contributor'
             : (pf.showcase > 0 || u.projects.merged > 0) ? 'participant' : 'none';
         return { ...u, portfolio: pf, months, overall, total, tier };
-    }).sort((a, b) => b.total - a.total || b.projects.merged - a.projects.merged);
+    }).sort((a, b) => b.total - a.total || b.projects.merged - a.projects.merged || a.user.localeCompare(b.user));
 
-    // Only rewrite the file when the data really changed (keeps the commit history clean)
     const next = { thresholds: TH, users: list, hall };
     const prev = readJSON(OUT, null);
-    if (prev && JSON.stringify({ thresholds: prev.thresholds, users: prev.users, hall: prev.hall }) === JSON.stringify(next)) {
-        console.log('No changes'); return;
-    }
+    const dataChanged = !prev || JSON.stringify({ thresholds: prev.thresholds, users: prev.users, hall: prev.hall }) !== JSON.stringify(next);
+
+    const now = new Date().toISOString();
+    const updated = dataChanged ? now : (prev?.updated || now);
+    const lastChecked = now;
+
     fs.mkdirSync('public/data', { recursive: true });
-    fs.writeFileSync(OUT, JSON.stringify({ updated: new Date().toISOString(), ...next }, null, 2));
-    console.log(`participants: ${people.length}, merged project PRs: ${merged.length}, hall: ${hall.length}`);
+    fs.writeFileSync(OUT, JSON.stringify({ updated, lastChecked, ...next }, null, 2));
+    if (dataChanged) {
+        console.log(`Scores updated! participants: ${people.length}, merged project PRs: ${merged.length}, hall: ${hall.length}`);
+    } else {
+        console.log(`No score changes. Preserved updated (${updated}), refreshed lastChecked (${lastChecked}).`);
+    }
 })();

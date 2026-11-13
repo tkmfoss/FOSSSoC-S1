@@ -12,6 +12,13 @@ import {
   AlertTriangle
 } from 'lucide-react';
 
+function formatTimestamp(ts) {
+  if (!ts) return null;
+  const d = new Date(ts);
+  if (isNaN(d.getTime())) return null;
+  return `${d.toLocaleDateString([], { month: 'short', day: 'numeric' })}, ${d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+}
+
 export default function LeaderboardPage() {
   const { data, loading, error, refetch, isDemoMode } = useLeaderboardData();
   const { theme, themes } = useTheme();
@@ -251,11 +258,20 @@ export default function LeaderboardPage() {
             gap: '0.5rem'
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
             <Clock size={12} />
             <span>
-              Last synced: {data?.updated ? `${new Date(data.updated).toLocaleDateString([], { month: 'short', day: 'numeric' })}, ${new Date(data.updated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}` : 'Not synced'} (browser auto-refreshes every 5m)
+              Last checked: {formatTimestamp(data?.lastChecked || data?.updated) || 'Not synced'}
             </span>
+            {data?.updated && (
+              <>
+                <span style={{ opacity: 0.4 }}>•</span>
+                <span>
+                  Latest scored activity: {formatTimestamp(data.updated)}
+                </span>
+              </>
+            )}
+            <span style={{ opacity: 0.7 }}>(browser auto-refreshes every 5m)</span>
           </div>
           <div>Rows: {filteredRows.length}</div>
         </div>
