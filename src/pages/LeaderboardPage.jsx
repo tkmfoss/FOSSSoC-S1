@@ -267,7 +267,7 @@ export default function LeaderboardPage() {
               <>
                 <span style={{ opacity: 0.4 }}>•</span>
                 <span>
-                  Latest scored activity: {formatTimestamp(data.updated)}
+                  Latest scored PR: {formatTimestamp(data.updated)}
                 </span>
               </>
             )}

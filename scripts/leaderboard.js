@@ -161,7 +161,8 @@ async function portfolio(login, tpl, showPR, rubric, ov) {
             login: pr.author.login, repo: pr.repository.name, number: pr.number, title: pr.title, url: pr.url,
             level: lvl.split(':')[1], base: LEVEL[lvl], firstWeek: 0,
             quality: labels.includes('quality:excellent') ? QUALITY : 0, capped: count[key] > REPO_CAP,
-            opened, merged: ist(pr.mergedAt), month: opened.slice(0, 7), ts: new Date(pr.createdAt).getTime()
+            opened, merged: ist(pr.mergedAt), month: opened.slice(0, 7), ts: new Date(pr.createdAt).getTime(),
+            mergedAt: pr.mergedAt
         });
     }
     const first = {};
@@ -216,7 +217,8 @@ async function portfolio(login, tpl, showPR, rubric, ov) {
     const dataChanged = !prev || JSON.stringify({ thresholds: prev.thresholds, users: prev.users, hall: prev.hall }) !== JSON.stringify(next);
 
     const now = new Date().toISOString();
-    const updated = dataChanged ? now : (prev?.updated || now);
+    const latestScoredPR = rows.length ? rows[rows.length - 1].mergedAt : null;
+    const updated = latestScoredPR || (dataChanged ? now : (prev?.updated || now));
     const lastChecked = now;
 
     fs.mkdirSync('public/data', { recursive: true });
