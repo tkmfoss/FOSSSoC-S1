@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T15:09:19Z",
-  "lastChecked": "2026-11-21T22:42:55.361Z",
+  "updated": "2026-11-22T06:19:07Z",
+  "lastChecked": "2026-11-22T15:52:16.452Z",
   "thresholds": {
     "october": {
       "total": 35,
@@ -487,8 +487,8 @@
         "eligible": true
       },
       "projects": {
-        "total": 340,
-        "merged": 8,
+        "total": 390,
+        "merged": 9,
         "pending": 0,
         "prs": [
           {
@@ -610,14 +610,29 @@
             "opened": "2026-11-09",
             "merged": "2026-11-09",
             "month": "2026-11"
+          },
+          {
+            "repo": "BrokenKey",
+            "number": 58,
+            "title": "feat(learn): Add Adaptive Spaced Repetition & Learning Mastery Engine",
+            "url": "https://github.com/tkmfoss/BrokenKey/pull/58",
+            "level": "hard",
+            "base": 50,
+            "firstWeek": 0,
+            "quality": 0,
+            "capped": false,
+            "points": 50,
+            "opened": "2026-11-22",
+            "merged": "2026-11-22",
+            "month": "2026-11"
           }
         ]
       },
       "months": {
         "2026-11": {
-          "points": 340,
-          "prs": 8,
-          "mediumPlus": 7,
+          "points": 390,
+          "prs": 9,
+          "mediumPlus": 8,
           "eligible": true
         },
         "2026-10": {
@@ -628,12 +643,12 @@
         }
       },
       "overall": {
-        "points": 389,
+        "points": 439,
         "activeMonths": 2,
         "repos": 3,
         "eligible": true
       },
-      "total": 389,
+      "total": 439,
       "tier": "core"
     },
     {
